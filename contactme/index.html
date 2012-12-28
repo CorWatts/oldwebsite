@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<h3 class="contentTitle">lets get in touch</h3>
+
+<?php if(Yii::app()->user->hasFlash('contact')): ?>
+<div class="flashSuccess">
+	<?php echo Yii::app()->user->getFlash('contact'); ?>
+</div>
+
+<?php else: ?>
+<?php $form=$this->beginWidget('CActiveForm', array(
+	'id'=>'contactForm',
+	'enableAjaxValidation'=>true,
+	'focus'=>array($model,'name'),
+)); ?>
+
+
+<table id="formTable">
+	<tr>
+		<td><?php echo $form->labelEx($model,'name'); ?></td>
+		<td><?php echo $form->textField($model,'name'); ?></td>
+		<td><?php echo $form->error($model,'name'); ?></td>
+	</tr>
+	<tr>
+		<td><?php echo $form->labelEx($model,'email'); ?></td>
+		<td><?php echo $form->textField($model,'email'); ?></td>
+		<td><?php echo $form->error($model,'email'); ?></td>
+	</tr>
+	<tr>
+		<td><?php echo $form->labelEx($model,'message'); ?></td>
+		<td><?php echo $form->textArea($model,'message'); ?></td>
+		<td><?php echo $form->error($model,'message'); ?></td>
+	</tr>
+	<tr>
+		<td><?php echo $form->hiddenField($model,'botTrap'); ?></td>
+		<td id="submitTd"><?php echo CHtml::submitButton('Submit', array("class"=>"fancy")); ?></td>
+		<td><?php echo $form->error($model, 'botTrap'); ?></td>
+	</tr>
+</table>
+
+<?php $this->endWidget(); ?>
+
+<?php endif; ?>

@@ -1,0 +1,8 @@
+auto: true
+server: true
+pygments: true
+permalinks: /blog/:year/:month/:day/:title
+url: http://corwatts.com
+
+banner_text: hi. i'm corey.
+github: https://github.com/CorWatts
