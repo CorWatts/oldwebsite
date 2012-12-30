@@ -114,6 +114,13 @@ span.navBlurb {
 		color: white;
 	}
 
+	span.email {
+		font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif;
+		color: white;
+		font-size: 25px;
+		margin: 0px;
+	}
+
 /*  Resume Stuff */
 h4.resumeSection {
 	font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif;

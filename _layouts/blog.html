@@ -1,0 +1,19 @@
+{% include header.html %}
+	<div id="body_container">
+		<div id="sidebar">
+			<div class="sidebar-title">Tags</div>
+			<div class="sidebar-content">
+				{{ site | tag_cloud }}
+			</div>
+		</div><!-- sidebar -->
+		<div id="blog_content">
+			<div class="post">
+				<div class="title"><a href='{{ page.url }}'>{{ page.title }}</a></div>
+				<div class="author">posted by {{ site.first_name }} on {{ page.date | date: "%B %d, %Y" }}</div>
+				<div class="content">
+					{{ content }}
+				</div>
+			</div>
+		</div><!-- content -->
+	</div>
+{% include footer.html %}

@@ -1,8 +1,13 @@
 auto: true
 server: true
 pygments: true
-permalinks: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title
 url: http://corwatts.com
 
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+first_name: Corey
+last_name: Watts
 banner_text: hi. i'm corey.
 github: https://github.com/CorWatts
