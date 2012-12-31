@@ -6,17 +6,14 @@
 				{{ site | tag_cloud }}
 			</div>
 		</div><!-- sidebar -->
-		{% for post in site.posts limit 5 %}
 		<div id="blog_content">
 			<div class="post">
-				<div class="title"><a href='{{ post.url }}'>{{ post.title }}</a></div>
-				<div class="author">posted by {{ site.first_name }} on {{ post.date | date: "%B %d, %Y" }}</div>
+				<div class="title"><a href='{{ page.url }}'>{{ page.title }}</a></div>
+				<div class="author">posted by {{ site.first_name }} on {{ page.date | date: "%B %d, %Y" }}</div>
 				<div class="content">
-					{{ post.content }}
+					{{ content }}
 				</div>
-				<div class="nav"><span class="bold">Tags</span> {{ post | tags }}</div>
 			</div>
 		</div><!-- content -->
-		{% endfor %}
 	</div>
 {% include footer.html %}

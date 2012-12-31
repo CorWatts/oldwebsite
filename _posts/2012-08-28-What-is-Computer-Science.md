@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: What is Computer Science?
 tags:
 - computer science

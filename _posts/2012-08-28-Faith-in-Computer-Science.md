@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Faith in Computer Science
 tags:
 - christianity
