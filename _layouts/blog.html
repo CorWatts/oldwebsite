@@ -1,9 +1,9 @@
 {% include header.html %}
 	<div id="body_container">
 		<div id="sidebar">
-			<div class="sidebar-title">Tags</div>
 			<div class="sidebar-content">
-				{{ site | tag_cloud }}
+				{% include widgets/timeLine.html %}
+				{% include widgets/tagCloud.html %}
 			</div>
 		</div><!-- sidebar -->
 		{% for post in site.posts limit 5 %}

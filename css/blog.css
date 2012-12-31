@@ -18,6 +18,12 @@ ul.tagList {list-style-type: none;}
 #sidebar .sidebar-title {font-weight: bold;}
 #sidebar ul {list-style: none; margin-left: 0px;}
 #sidebar a {color: white;}
+#sidebar section {margin: 5px 0px 5px 0px}
+#sidebar section h1 {font-size: 20px;}
+#sidebar section h1 span.hint {margin-left: 5px;}
+#sidebar .postList li {margin-left: 10px;}
+
+
 .post {color: white; font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 16px; margin: 25px 0px; width: 100%;}
 .post .title {font-size: 25px; font-weight: bold;}
 .post .title a {text-decoration: none;}

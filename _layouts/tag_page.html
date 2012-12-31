@@ -1,9 +1,0 @@
----
-layout: default
----
-<h3 class="contentTitle">Posts Tagged with <span class="italic">{{ page.tag }}</span></h3>
-<ul class="tagList">
-	{% for post in page.posts %}
-	<li class="tag"><a class="postTitle" href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_string }} - Tags: {{ post | tags }}</li>
-	{% endfor %}
-</ul>
