@@ -19,9 +19,9 @@
 	   {% for tag in site.tags %}      
 	   <li>
 	   	<a href="tags.html#{{ tag | first | cgi_encode }}" 
-	   	style="font-size:{{tag | last | size | times:100 | divided_by:site.tags.size | plus:100}}%">
+		style="font-size:{{tag | last | size | times:16 | divided_by:site.tags.size | plus:8}}px;">
 		{{ tag | first }}</a>
-		{% unless forloop.last %}, {% endunless %}
+		{% unless forloop.last %}&nbsp; {% endunless %}
 	</li>
 	{% endfor %}    
 	</ul>

@@ -14,7 +14,7 @@
 				<div class="content">
 					{{ post.content }}
 				</div>
-				<div class="nav"><span class="bold">Tags</span> {{ post | tags }}</div>
+				{% include widgets/postTagList.html %}
 			</div>
 		</div><!-- content -->
 		{% endfor %}

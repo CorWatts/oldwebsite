@@ -1,7 +1,6 @@
 {% include header.html %}
 	<div id="body_container">
 		<div id="sidebar">
-			<div class="sidebar-title">Tags</div>
 			<div class="sidebar-content">
 				{% include widgets/timeLine.html %}
 				{% include widgets/tagCloud.html %}
@@ -14,7 +13,7 @@
 				<div class="content">
 					{{ content }}
 				</div>
-				<div class="nav"><span class="bold">Tags</span> {{ post | tags }}</div>
+				{% include widgets/postTagList.html %}
 			</div>
 		</div><!-- content -->
 	</div>
