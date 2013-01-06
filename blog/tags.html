@@ -6,12 +6,15 @@ banner_color: 54787D
 <!-- categories -->	
 {% for tag in site.tags %}
 <div class="box">
-	<h1>{{ tag | first }}<a name="{{ tag | first | cgi_escape }}"></a></h1>
-	<ul class="postList">	
+	<h3><a name="{{ tag | first | cgi_escape }}">{{ tag | first }}</a></h3>
+	<ul class="list">	
 	{% for posts in tag %}
-      {% for post in posts %}
-		<li class="nested"><a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }} <span>{{ post.date | date: '%d.%m.%y' }}</span></a></li>						
-	{% endfor %}{% endfor %}
+      		{% for post in posts %}
+		{% if post.url %}
+			<li class="indented"><a href="{{ post.url }}">{{ post.title }}</a> on {{ post.date | date: '%d %b, %Y' }}</li>
+		{% endif %}
+		{% endfor %}
+	{% endfor %}
 	</ul>
 </div>				
 {% endfor %}
