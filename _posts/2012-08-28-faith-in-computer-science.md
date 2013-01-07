@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Faith in Computer Science
+comments: true
 tags:
 - christianity
 - computer science

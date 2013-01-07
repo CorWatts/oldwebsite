@@ -17,17 +17,19 @@
 				</li>
 			{% endfor %}
 			</ul>
+			<div class="clear"></div>
 		</div>	
 	{% endif %}		
 {% else %}
 	{% if page.tags.size > 0 %}
-		<div class="tags"><span class="bold left">Tags:&nbsp;</span>
+		<div class="tags">
+			<span class="bold left">Tags:&nbsp;</span>
 			<ul class="inlineList">
 			{% for tag in page.tags %}
-				<li><a href="/blog/tags.html#{{tag | cgi_encode}}">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
-				</li>
+				<li><a href="/blog/tags.html#{{tag | cgi_encode}}">{{ tag }}</a>{% unless forloop.last %},{% endunless %}</li>
 			{% endfor %}
 			</ul>
 		</div>	
+		<div class="clear"></div>
 	{% endif %}		
 {% endif %}

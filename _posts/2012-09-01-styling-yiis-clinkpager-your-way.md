@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Styling Yii's CLinkPager Your Way
+comments: true
 tags:
 - yii
 - programming

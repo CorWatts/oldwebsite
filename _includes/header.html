@@ -9,8 +9,6 @@
 		<link rel="icon" href="favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" type="text/css" href="/css/screen.css" />
-		<link rel="stylesheet" type="text/css" href="/css/blog.css" />
-		<link rel="stylesheet" type="text/css" href="/css/syntax.css" />
 		<link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans|Terminal+Dosis' rel='stylesheet' type='text/css' />
 		
 
@@ -39,32 +37,6 @@
 
 		</script>
 	</head>
-
-
-<!--		case "main/aboutme":
-			$bannerColor = "#C6CCA5";
-			//$bannerText = "hi. i'm corey.";
-			break;
-		case "main/resume":
-			$bannerColor = "#8AB8A8";
-			//$bannerText = "what i've done.";
-			break;
-		case "main/projects":
-			$bannerColor = "#6B9997";
-			//$bannerText = "what i'm doing.";
-			break;
-		case "blog":
-			$bannerColor = "#54787D";
-			//$bannerText = "what i love.";
-			break;
-		case "main/contactme":
-			$bannerColor = "#615145";
-			//$bannerText = "i can haz message?";
-			break;
-		default:
-			$bannerColor = "#C6CCA5";
--->
-	
 	<body>
 		<div id="topBanner" style="background-color: #{% if page.banner_color %}{{ page.banner_color }}{% else %}C6CCA5{% endif %}">
 			<h1 id="bannerText">{{ site.banner_text }}</h1>

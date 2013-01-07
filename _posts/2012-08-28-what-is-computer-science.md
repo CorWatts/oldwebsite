@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is Computer Science?
+comments: true
 tags:
 - computer science
 - westmont
