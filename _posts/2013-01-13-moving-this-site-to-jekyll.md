@@ -19,6 +19,6 @@ Soon after, I began to get large numbers of spam comments on my blog.  I write a
 
 So I began to think of alternatives.  I stumbled upon [Jekyll](http://jekyllrb.com/) one day, and thought it sounded interesting.  A completely static site would be incredibly fast, I could use variables and templates with Liquid, I could have a full blown blog with posts, templates, and comments (using Disqus), and I could have a super easy deploy method using Git.  Not to mention, my site and blog would be completely backed up with full version control.  That was extremely appealing to me.
 
-I began to research Jekyll and all the functionality it has, and I soon began the process of switching everything over.  I'm quite happy with how it has turned out, Jekyll is a pretty awesome tool.
+I began to research Jekyll and all the functionality it has, and I soon began the process of switching everything over.  I'm quite happy with how it has turned out, Jekyll is a pretty awesome tool.  My new Jekyll site averages roughly 170 requests/sec, blog included.
 
 I think I can have a lot of fun with this.
