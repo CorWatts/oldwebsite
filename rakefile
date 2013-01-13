@@ -1,0 +1,16 @@
+task :default => [:gen]
+
+desc 'Generating new version of site...'
+task :gen do
+  system('jekyll')
+end
+
+desc 'Running Jekyll with --server --auto option'
+task :dev do
+  system('jekyll --server --auto')
+end
+
+desc 'Deploying site to server...'
+task :deploy => :gen do
+  system('git push web')
+end
