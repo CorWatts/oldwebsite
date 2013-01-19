@@ -3,10 +3,10 @@ layout: default
 title: Blog | Tags
 banner_color: 54787D
 ---
-<!-- categories -->	
+<h3>Tags</h3>
 {% for tag in site.tags %}
 <div class="box">
-	<h3><a name="{{ tag | first | cgi_escape }}">{{ tag | first }}</a></h3>
+	<h4><a name="{{ tag | first | cgi_escape }}">{{ tag | first }}</a></h4>
 	<ul class="list">	
 	{% for posts in tag %}
       		{% for post in posts %}

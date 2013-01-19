@@ -1,6 +1,7 @@
 pygments: true
 permalink: /blog/:year/:month/:day/:title
 url: http://corwatts.com
+exclude: rakefile
 
 first_name: Corey
 last_name: Watts
