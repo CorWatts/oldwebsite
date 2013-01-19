@@ -20,6 +20,7 @@ banner_color: 54787D
 		{% else %}
 			{% if year != nyear %}
 			</ul>
+			<h4 class="contentSubheader"><a name="#{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</a></h1>
 			<h4 class="contentSubheader indented"><a name="#{{ post.date | date: '%Y-%B' }}">{{ post.date | date: '%B' }}</a></h4>
 			<ul class="list">
 			{% elsif month != nmonth %}

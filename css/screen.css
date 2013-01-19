@@ -19,8 +19,8 @@ span.navTitle {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; font
 span.navBlurb {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; font-size: 16px; white-space: nowrap; text-shadow: 1px 1px 1px #828181; filter: dropshadow(color=#828181, offx=1, offy=1);}
 
 #content {margin: 20px auto 50px auto; width: 75%;}
-	#content h3 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 30px; color: white; margin: 0px;}
-	#content h4 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 21px; color: white;}
+	#content h3 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 30px; color: white; margin-top: 5px; margin-bottom: 5px;}
+	#content h4 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 21px; color: white; margin-top: 5px; margin-bottom: 5px;}
 	#content p {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 18px; margin: 0px 0px 20px 0px;}
 	a {color: white;}
 	span.email {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 35px; margin: 0px;}
@@ -29,7 +29,7 @@ span.navBlurb {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; font
 ul.listNoMarker {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 20px; color: white; margin-left: 40px;}
 	ul.listNoMarker li {margin: 10px 0px 5px 0px; list-style-type: none; }
 ul.list {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 18px; color: white; margin-left: 40px;}
-	ul.list li {margin: 0px; list-style-type: disc; }
+	ul.list li {margin: 5px 0px 5px 0px; list-style-type: disc; }
 
 #footer {margin: 0px auto 0px auto; width: 60%;}
 #footerTop {border: none; height: 1px; color: #58595E; background-color: #58595E; margin-bottom: 10px; }
