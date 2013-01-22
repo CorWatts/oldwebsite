@@ -17,15 +17,19 @@ The watches were even cooler in person.  For whatever reason a watch always look
 Enough backstory, lets cut to the review.
 
 I have the 2011 model with the white face.  Specs are as follows:
-* Movement: ETA 2842-2
-* Illumination: 27 micro tritium gas tubes
-* Width: 40 mm
-* Thickness: 13.2 mm
-* Crystal: anti-reflective sapphire
-* Water resistance: 100 meters
-* Shock resistance: 5,000 Gs
-* Antimagnetic: 4,800 A/m
+<ul class="indented">
+	<li>Movement: ETA 2842-2</li>
+	<li>Illumination: 27 micro tritium gas tubes</li>
+	<li>Width: 40 mm</li>
+	<li>Thickness: 13.2 mm</li>
+	<li>Crystal: anti-reflective sapphire</li>
+	<li>Water resistance: 100 meters</li>
+	<li>Shock resistance: 5,000 Gs</li>
+	<li>Antimagnetic: 4,800 A/m</li>
+</ul>
 
 I've been wearing it almost every day for since May 2012, so as of writing I've been wearing it roughly eight months.  For most of that time, I had it on the metal bracelet.  I switched it over to the black leather band in late December, and I've been wearing it that way since.  I really love how it looks on both bands, but I think it looks slightly classier on the black leather.  I've been quite impressed by the sapphire crystal, after eight months of constant use there isn't a single scratch!  The polished metal case and bezel have small, normal-use scratches, but the crystal is still pristine.
 
 I think the white face is very classy, defintely classier than the black face this model also comes in.  The white face, arabic numerals, black outlines on the indexes, and teal accents combine to make a gorgeous dial.  I especially love the shade of teal used on the second hand and arabic five minute markers.  I love the teal so much I was very excited when Ball redesigned their Engineer II Diver to use that color, instead of the florescent green and orange they were using previously.  But that's a story for another post.
+
+The movement appears to be quite solid, the watch loses about two and a half seconds per day (lying face up on my dresser at night).  I'd estimate it has roughly a 40 or 45 hour power reserve.  The tritium lume is outstanding.  This is the first tritium watch I've owned, and honestly there is no comparison between tritium and lume paint.  My watch is <span class="italic">always</span> visible at night, no matter how dark or how long it has been since light has touched it.  I don't know how I lived without it!  Ball says the tritium will last 25 years, but seeing as the half-life of tritium is 12.3 years, I'll probably want to get it replaced before then.  Regardless, my watch should be shining brightly for at least ten years or so.  After that, I can send the watch in to Ball and have the tritium tubes replaced.

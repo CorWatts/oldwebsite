@@ -11,7 +11,7 @@ banner_color: 54787D
 		</div>
 		<div id="blog_content">
 			<div class="post">
-				<div class="title"><a href='{{ page.url }}'>{{ page.title }}</a></div>
+				<h1 class="postTitle"><a href='{{ page.url }}'>{{ page.title }}</a></h1>
 				<div class="author">posted by {{ site.first_name }} on {{ page.date | date: "%B %d, %Y" }}</div>
 				<div class="content">
 					{{ content }}

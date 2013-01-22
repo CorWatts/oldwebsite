@@ -3,7 +3,7 @@ layout: default
 title: Blog | Archives
 banner_color: 54787D
 ---
-<h3>Archives</h3>
+<h1>Archives</h1>
 	{% for post in site.posts %}
 	
 		{% if post.next %}
@@ -14,18 +14,18 @@ banner_color: 54787D
 		{% endif %}
 		
 		{% if forloop.first %}
-			<h4><a name="#{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</a></h1>
-			<h4 class="indented"><a name="#{{ post.date | date: '%Y-%B' }}">{{ post.date | date: '%B' }}</a></h4>
+			<h2><a name="#{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</a></h2>
+			<h2 class="indented"><a name="#{{ post.date | date: '%Y-%B' }}">{{ post.date | date: '%B' }}</a></h2>
 			<ul class="list">
 		{% else %}
 			{% if year != nyear %}
 			</ul>
-			<h4><a name="#{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</a></h1>
-			<h4 class="indented"><a name="#{{ post.date | date: '%Y-%B' }}">{{ post.date | date: '%B' }}</a></h4>
+			<h2><a name="#{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</a></h1>
+			<h2 class="indented"><a name="#{{ post.date | date: '%Y-%B' }}">{{ post.date | date: '%B' }}</a></h2>
 			<ul class="list">
 			{% elsif month != nmonth %}
 			</ul>
-			<h4 class="indented"><a name="#{{ post.date | date: '%Y-%B' }}">{{ post.date | date: '%B' }}</a></h4>
+			<h2 class="indented"><a name="#{{ post.date | date: '%Y-%B' }}">{{ post.date | date: '%B' }}</a></h2>
 			<ul class="list">
 			{% endif %}
 	   {% endif %}

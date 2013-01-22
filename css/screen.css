@@ -19,8 +19,9 @@ span.navTitle {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; font
 span.navBlurb {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; font-size: 16px; white-space: nowrap; text-shadow: 1px 1px 1px #828181; filter: dropshadow(color=#828181, offx=1, offy=1);}
 
 #content {margin: 20px auto 50px auto; width: 75%;}
-	#content h3 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 30px; color: white; margin-top: 5px; margin-bottom: 5px;}
-	#content h4 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 21px; color: white; margin-top: 5px; margin-bottom: 5px;}
+	#content h1 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 30px; color: white; margin-top: 5px; margin-bottom: 5px;}
+	#content h2 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 21px; color: white; margin-top: 5px; margin-bottom: 5px;}
+	#content h3 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 21px; color: white; margin-top: 5px; margin-bottom: 5px;}
 	#content p {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 18px; margin: 0px 0px 20px 0px;}
 	a {color: white;}
 	span.email {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 35px; margin: 0px;}
@@ -58,7 +59,7 @@ ul.tagList {list-style-type: none;}
 #sidebar section ul.tagCloud li {float: left;}
 
 .post {color: white; font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 16px; margin: 25px 0px; width: 100%;}
-.post .title {font-size: 25px; font-weight: bold;}
+.post h1.postTitle {font-size: 25px; font-weight: bold;}
 .post .title a {text-decoration: none;}
 .post .title a:hover {text-decoration: underline;}
 .post .author, .post .tags {font-size: 14px;}
@@ -74,10 +75,6 @@ ul.tagList {list-style-type: none;}
 .italic {font-style: italic;}
 .indented {margin-left: 10px;}
 .clear {clear: both;}
-
-/* Calendar demo stuff */
-h2 {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; font-size: 22px; color: white; text-align: center;}
-.calendar-control, .calendar {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif;}
 
 /* syntax highlighting */
 .highlight{background-color:#073642;color:#93a1a1;}
