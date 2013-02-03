@@ -64,6 +64,7 @@ ul.tagList {list-style-type: none;}
 .post .title a:hover {text-decoration: underline;}
 .post .author, .post .tags {font-size: 14px;}
 .post .content p {margin: 10px 0px;}
+.post .content ul {margin-left: 17px;}
 .post div.tags, .post ul.inlineList {display: inline;}
 .post .tags ul.inlineList {list-style-type: none;}
 .post .tags ul.inlineList li {float: left; margin-right: 4px;}
