@@ -7,7 +7,7 @@ end
 
 desc 'Running Jekyll with --server --auto option'
 task :dev do
-  system('jekyll --server --auto')
+  system('jekyll serve --watch')
 end
 
 desc 'Deploying site to server...'
