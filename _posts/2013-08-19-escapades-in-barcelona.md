@@ -8,6 +8,7 @@ tags:
 - europe
 - traveling
 - europe2013
+- christianity
 ---
 Roughly two and a half months ago, I left my job at Landmark Global to do freelancing work full time. Some opportunities had come up, and I was able to support myself working far less than full time while traveling across Europe. That was too good of an opportunity to pass up. I decided to carpe diem my way across Europe, alone, while doing a little bit of programming work remotely. After being in Barcelona, Spain for almost a week, I can safely say that it was a great decision.
 

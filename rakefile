@@ -5,7 +5,7 @@ task :gen do
   system('jekyll')
 end
 
-desc 'Running Jekyll with --server --auto option'
+desc 'Running Jekyll server with --watch option'
 task :dev do
   system('jekyll serve --watch')
 end
