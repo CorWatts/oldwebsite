@@ -4,7 +4,7 @@ title: Blog
 banner_color: 54787D
 ---
 	<div id="blog_content">
-	{% for post in site.posts limit 5 %}
+	{% for post in site.posts limit: 5 %}
 		<div class="post">
 			<h1 class="postTitle"><a href='{{ post.url }}'>{{ post.title }}</a></h1>
 			<div class="author">posted by {{ site.first_name }} on {{ post.date | date: "%B %d, %Y" }}</div>
@@ -14,7 +14,5 @@ banner_color: 54787D
 			{% include widgets/postTagList.html %}
 		</div>
 	{% endfor %}
-	{% if post_count > 5 %}
-	<a class="olderPosts" href="/blog/older.html">&lt;&lt; view older posts</a>
-	{% endif %}
+		<a class="olderPosts" href="/blog/older.html">&lt;&lt; view older posts</a>
 	</div>
