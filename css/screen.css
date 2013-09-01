@@ -21,7 +21,7 @@ a.navInnerLinkContainer {position: absolute; height: 100%; width: 100%; padding:
 span.navTitle {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; font-size: 28px; white-space: nowrap; text-shadow: 1px 1px 1px #828181; filter: dropshadow(color=#828181, offx=1, offy=1);}
 span.navBlurb {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; font-size: 16px; white-space: nowrap; text-shadow: 1px 1px 1px #828181; filter: dropshadow(color=#828181, offx=1, offy=1);}
 
-#content {margin: 20px auto 50px auto; width: 75%;}
+#content {margin: 30px auto 50px auto; width: 75%;}
 	#content h1 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 30px; color: white; margin-top: 5px; margin-bottom: 5px;}
 	#content h2 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 21px; color: white; margin-top: 5px; margin-bottom: 5px;}
 	#content h3 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 21px; color: white; margin-top: 5px; margin-bottom: 5px;}
