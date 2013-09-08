@@ -23,6 +23,8 @@ Interlaken is the nicest city I've seen so far on this trip, the beauty is breat
 
 The next day I went hang gliding. My hostel in Interlaken connected me with a hang gliding outfit that, while expensive, was a great experience. We took a drive up one of the mountains surrounding the city and launched off a small clearing at the top. A short run downhill, then liftoff! The view was incredible, up with the peaks of the mountains, soaring over the city and the lakes. There were a number of quaint Swiss houses up near the launch point that had an incredible view of the city and lakes down below. I found myself wondering how much those houses cost...might be a nice retirement spot.
 
+<a href="/img/full/hang_gliding.jpg"><img alt="Interlaken Hang Gliding" src="/img/thumb/hang_gliding.jpg" height="199" width="266" /></a>
+
 Despite the beauty of Switzerland, I've had trouble meeting people here. In every other country I've been in, I've met other single travelers from all over, including lots of Australians. I've been able to make a significant number of new friends just by running into other people who are traveling alone. In Switzerland, however, it seems like there are almost no single travelers and no Australians -- everyone is Asian and is traveling in a group. It is always more difficult to join in with a group of travelers -- I receive weird looks when I try to approach them. So unfortunately I haven't made many new friends here, though I'm still having a good time.
 
 I'm off to Zurich next. I'll spend a few days there, then I'm off to tour Ireland, Scotland, and England with a good friend from home. I'm definitely excited about the Guinness I'll be having in Dublin.
