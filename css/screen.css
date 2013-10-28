@@ -71,6 +71,7 @@ ul.tagList {list-style-type: none;}
 .post div.tags, .post ul.inlineList {display: inline;}
 .post .tags ul.inlineList {list-style-type: none;}
 .post .tags ul.inlineList li {float: left; margin-right: 4px;}
+.post a>img {margin-right: 10px;}
 
 .right {float: right;}
 .left {float: left;}
