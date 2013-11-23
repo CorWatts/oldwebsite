@@ -19,7 +19,7 @@ assets:
     - _assets/images
   js_compressor: uglifier
   css_compressor: sass
-  cachebust: hard
+  cachebust: soft
   cache: false
   gzip: [ text/css, application/javascript ]
   debug: false
