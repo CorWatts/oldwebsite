@@ -21,6 +21,6 @@ I particularly enjoyed the food in San Sebastian. The Basque have their own vers
 
 There is also a large hill overlooking the whole city, with an enormous status of Jesus Christ at the top. Several times, we hiked up there to watch the sunset. I got a pretty nice panoramic shot, which I've added below. I was pleasantly surprised to see how easy my camera makes panoramas...I'll have to take more. You can even see the island we swam to in the middle of the harbor.
 
-<a href="/img/full/san_sebastian_panorama.jpg"><img alt="San Sebastian Panorama" src="/img/thumb/san_sebastian_panorama.jpg" height="199" width="918" /></a>
+<a href="{% asset_path full/san_sebastian_panorama.jpg %}"><img alt="San Sebastian Panorama" src="{% asset_path thumb/san_sebastian_panorama.jpg %}" height="199" width="918" /></a>
 
 I'm on a train to Bordeaux, France right now. I'm trying to work my way down to Switzerland. I think I'm going to have to get to Paris, then take a high-speed train south to Bern. We will see how it works out.

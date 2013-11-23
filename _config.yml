@@ -7,3 +7,19 @@ first_name: Corey
 last_name: Watts
 banner_text: hi. i'm corey.
 github: https://github.com/CorWatts
+
+markdown: rdiscount
+
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: hard
+  cache: false
+  gzip: [ text/css, application/javascript ]
+  debug: false

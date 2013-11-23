@@ -19,7 +19,7 @@ After the tour, we stopped by one of the many whisky shops and purchased several
 
 The next morning, we rented a car and headed up north to Inverness. We had gotten the name of a small distillery that was on the way up and we stopped by. The distillery's name was Edradour, and they were proud of being the smallest distillery in all of Scotland. There are only three men producing the whisky, and they only produce 15 barrels of whisky each week. It was a small, personal tour, and we learned quite a bit about the distillation process. We sampled two of their malts, which were both impressive. Then we visited the shop. For such a small distillery, they have a surprisingly wide range of whiskys. They've recently released a number of whiskys that were aged in various types of wine casks. Everything from port, to a burgundy, to a chardonnay, as well as several German wines. Brian picked up a bottle of the burgundy-aged whisky, while I picked up a cask-strength bottle aged in a more typical sherry cask. The whole experience was a lot of fun.
 
-<a href="/img/full/edradour_storehouse.jpg"><img alt="Edradour Storehouse" src="/img/thumb/edradour_storehouse.jpg" height="187" width="249" /></a>
+<a href="{% asset_path full/edradour_storehouse.jpg %}"><img alt="Edradour Storehouse" src="{% asset_path thumb/edradour_storehouse.jpg %}" height="187" width="249" /></a>
 
 We arrived in Inverness that night, checked in to our hostel, dropped our bags, and went out for drinks. The employee at the front desk of the hostel recommended a local pub, apparently they were playing reggae music that night. We dropped by, Brian talked our way past the cover charge (he has invested most of his stat points into Charisma, thus he is great at bartering and often gets additional dialog options) and we grabbed drinks and a table. The reggae music turned out to just be a DJ playing some reggae tracks layered over electronica drum beats, but after a while he began to rap over them, so it got a bit better. We made some new bar friends, bought each other drinks, and they gave us a tour of the city and local cemetery. We had a great night and went back and slept soundly.
 
@@ -27,6 +27,6 @@ The next day, we stopped by Loch Ness on our way back down to Edinburgh. Loch Ne
 
 We sorted out the whole issue of the monster. Turns out all he wanted was tree-fiddy.
 
-<a href="/img/full/urquhart_castle.jpg"><img alt="Urquhart Castle" src="/img/thumb/urquhart_castle.jpg" height="199" width="1021" /></a>
+<a href="{% asset_path full/urquhart_castle.jpg %}"><img alt="Urquhart Castle" src="{% asset_path thumb/urquhart_castle.jpg %}" height="199" width="1021" /></a>
 
 We eventually arrived back in Edinburgh and had a relatively quiet night, before leaving on the train the next morning to head to London. I definitely want to come back to Scotland someday.

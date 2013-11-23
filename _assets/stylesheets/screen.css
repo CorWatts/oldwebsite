@@ -1,0 +1,162 @@
+* {padding: 0px; margin: 0px;}
+body {background-color: #1d1e21; position: relative;}
+
+#topBanner {width: 100%; height: 120px; margin-bottom: 20px; border-bottom: 1px solid #5E5E5E; position: relative;}
+	#bannerText {font-size: 85px; font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; text-align: center; text-shadow: 1px 1px 5px #828181; filter: dropshadow(color=#828181, offx=1, offy=1); width: 100%; margin: 0px auto 0px auto; white-space: nowrap; }
+
+.kwicks {display: block; list-style: none; list-style-type: none; position: relative; margin: 0px auto 0px auto; padding: 0; width: 645px; height: 80px;}
+.kwicks > * {display: block; overflow: hidden; padding: 0; margin: 0;}
+.kwicks.kwicks-processed > * {margin: 0; position: absolute;}
+.kwicks-horizontal > * {float: left;}
+.kwicks-horizontal > :first-child {margin-left: 0;}
+.kwicks > li {width: 125px; height: 100px; display: block; overflow: hidden; padding: 0;}
+.kwicks.horizontal li {margin-right: 5px; float: left;}
+#kwick_1 {background-color: #C6CCA5;}
+#kwick_2 {background-color: #8AB8A8;}
+#kwick_3 {background-color: #6B9997;}
+#kwick_4 {background-color: #54787D;}
+#kwick_5 {background-color: #615145;}
+.kwicks.horizontal #kwick_5 {margin-right: none;}
+a.navInnerLinkContainer {position: absolute; height: 100%; width: 100%; padding: 20px 0px 0px 10px; color: black; text-decoration: none;}
+span.navTitle {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; font-size: 28px; white-space: nowrap; text-shadow: 1px 1px 1px #828181; filter: dropshadow(color=#828181, offx=1, offy=1);}
+span.navBlurb {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; font-size: 16px; white-space: nowrap; text-shadow: 1px 1px 1px #828181; filter: dropshadow(color=#828181, offx=1, offy=1);}
+
+#content {margin: 30px auto 50px auto; width: 75%;}
+	#content h1 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 30px; color: white; margin-top: 5px; margin-bottom: 5px;}
+	#content h2 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 21px; color: white; margin-top: 5px; margin-bottom: 5px;}
+	#content h3 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 21px; color: white; margin-top: 5px; margin-bottom: 5px;}
+	#content p {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 18px; margin: 0px 0px 20px 0px;}
+	a {color: white;}
+	span.email {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 35px; margin: 0px;}
+
+/*  Resume Stuff */
+ul.listNoMarker {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 20px; color: white; margin-left: 40px;}
+	ul.listNoMarker li {margin: 10px 0px 5px 0px; list-style-type: none; }
+ul.list {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 18px; color: white; margin-left: 40px;}
+	ul.list li {margin: 5px 0px 5px 0px; list-style-type: disc; }
+
+#footer {margin: 0px auto 0px auto; width: 60%;}
+#footerTop {border: none; height: 1px; color: #58595E; background-color: #58595E; margin-bottom: 10px; }
+.footerText {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; font-size: 14px; color: gray; text-align: center;}
+#footer a {color: gray;}
+
+#body_container {width: 90%; margin-left: auto; margin-right: auto; margin-bottom: 5px;}
+#blog_content {color: white; font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; width: 75%; padding-bottom: 10px;}
+#blog_content a {color: white;}
+#blog_content a.olderPosts {font-size: 35px; text-decoration: none;}
+#blog_content a.olderPosts:hover {text-decoration: underline;}
+
+ul.tagList {list-style-type: none;}
+	ul.tagList li.tag {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 14px; margin: 0px 0px 5px 0px;}
+		ul.tagList li.tag a.postTitle {font-size: 18px;}
+
+#sidebar {float: right; color: white; font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; width: 25%; max-width: 225px; z-index: 1000;}
+#sidebar {margin: 10px;}
+#sidebar .sidebar-title {font-weight: bold;}
+#sidebar section ul {list-style: none; margin-left: 0px;}
+#sidebar section a {color: white; font-size: 16px;}
+#sidebar section {margin: 0px 0px 20px 0px}
+#sidebar section h1 {font-weight: bold; font-size: 18px;}
+#sidebar section h1 span.hint {margin-left: 5px;}
+#sidebar .postList li {margin-left: 10px;}
+#sidebar section ul.tagCloud li {float: left;}
+
+.post {color: white; font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 16px; margin: 25px 0px; width: 100%;}
+.post h1.postTitle {font-size: 25px; font-weight: bold;}
+.post .title a {text-decoration: none;}
+.post .title a:hover {text-decoration: underline;}
+.post .author, .post .tags {font-size: 14px;}
+.post .content p {margin: 10px 0px;}
+.post .content ul {margin-left: 17px;}
+.post div.tags, .post ul.inlineList {display: inline;}
+.post .tags ul.inlineList {list-style-type: none;}
+.post .tags ul.inlineList li {float: left; margin-right: 4px;}
+.post a>img {margin-right: 10px;}
+
+.right {float: right;}
+.left {float: left;}
+.bold {font-weight: bold;}
+.underline {text-decoration: underline;}
+.italic {font-style: italic;}
+.indented {margin-left: 10px;}
+.clear {clear: both;}
+
+/* syntax highlighting */
+.highlight{background-color:#073642;color:#93a1a1;}
+.highlight .c{color:#586e75 !important;font-style:italic !important;}
+.highlight .cm{color:#586e75 !important;font-style:italic !important;}
+.highlight .cp{color:#586e75 !important;font-style:italic !important;}
+.highlight .c1{color:#586e75 !important;font-style:italic !important;}
+.highlight .cs{color:#586e75 !important;font-weight:bold !important;font-style:italic !important;}
+.highlight .err{color:#dc322f !important;background:none !important;}
+.highlight .k{color:#cb4b16 !important;}
+.highlight .o{color:#93a1a1 !important;font-weight:bold !important;}
+.highlight .p{color:#93a1a1 !important;}
+.highlight .ow{color:#2aa198 !important;font-weight:bold !important;}
+.highlight .gd{color:#93a1a1 !important;background-color:#372c34 !important;display:inline-block;}
+.highlight .gd .x{color:#93a1a1 !important;background-color:#4d2d33 !important;display:inline-block;}
+.highlight .ge{color:#93a1a1 !important;font-style:italic !important;}
+.highlight .gr{color:#aa0000;}
+.highlight .gh{color:#586e75 !important;}
+.highlight .gi{color:#93a1a1 !important;background-color:#1a412b !important;display:inline-block;}
+.highlight .gi .x{color:#93a1a1 !important;background-color:#355720 !important;display:inline-block;}
+.highlight .go{color:#888888;}
+.highlight .gp{color:#555555;}
+.highlight .gs{color:#93a1a1 !important;font-weight:bold !important;}
+.highlight .gu{color:#6c71c4 !important;}
+.highlight .gt{color:#aa0000;}
+.highlight .kc{color:#859900 !important;font-weight:bold !important;}
+.highlight .kd{color:#268bd2 !important;}
+.highlight .kp{color:#cb4b16 !important;font-weight:bold !important;}
+.highlight .kr{color:#d33682 !important;font-weight:bold !important;}
+.highlight .kt{color:#2aa198 !important;}
+.highlight .n{color:#268bd2 !important;}
+.highlight .na{color:#268bd2 !important;}
+.highlight .nb{color:#859900 !important;}
+.highlight .nc{color:#d33682 !important;}
+.highlight .no{color:#b58900 !important;}
+.highlight .ni{color:#800080;}
+.highlight .nl{color:#859900 !important;}
+.highlight .ne{color:#268bd2 !important;font-weight:bold !important;}
+.highlight .nf{color:#268bd2 !important;font-weight:bold !important;}
+.highlight .nn{color:#b58900 !important;}
+.highlight .nt{color:#268bd2 !important;font-weight:bold !important;}
+.highlight .nx{color:#b58900 !important;}
+.highlight .bp{color:#999999;}
+.highlight .vc{color:#008080;}
+.highlight .vg{color:#268bd2 !important;}
+.highlight .vi{color:#268bd2 !important;}
+.highlight .nv{color:#268bd2 !important;}
+.highlight .w{color:#bbbbbb;}
+.highlight .mf{color:#2aa198 !important;}
+.highlight .m{color:#2aa198 !important;}
+.highlight .mh{color:#2aa198 !important;}
+.highlight .mi{color:#2aa198 !important;}
+.highlight .mo{color:#009999;}
+.highlight .s{color:#2aa198 !important;}
+.highlight .sb{color:#d14;}
+.highlight .sc{color:#d14;}
+.highlight .sd{color:#2aa198 !important;}
+.highlight .s2{color:#2aa198 !important;}
+.highlight .se{color:#dc322f !important;}
+.highlight .sh{color:#d14;}
+.highlight .si{color:#268bd2 !important;}
+.highlight .sx{color:#d14;}
+.highlight .sr{color:#2aa198 !important;}
+.highlight .s1{color:#2aa198 !important;}
+.highlight .ss{color:#990073;}
+.highlight .il{color:#009999;}
+.highlight div .gd,.highlight div .gd .x,.highlight div .gi,.highlight div .gi .x{display:inline-block;width:100%;}
+
+@font-face {
+  font-family: 'Quattrocento Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quattrocento Sans'), local('QuattrocentoSans'), url(https://themes.googleusercontent.com/static/fonts/quattrocentosans/v5/efd6FGWWGX5Z3ztwLBrG9b2aU247V0zTzydO4RoO9Ok.woff) format('woff');
+}
+@font-face {
+  font-family: 'Terminal Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dosis Regular'), local('Dosis-Regular'), url(https://themes.googleusercontent.com/static/fonts/terminaldosis/v5/_IcvjW_kWHsIHjjUsLbdpFGxLvFzKVP0OsRYGzgS_zk.woff) format('woff');
+}
