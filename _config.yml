@@ -1,5 +1,5 @@
 pygments: true
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title/
 url: http://corwatts.com
 exclude: [rakefile]
 
