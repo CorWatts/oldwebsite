@@ -3,10 +3,7 @@
 			<p class="footerText">This website was built using <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://www.vim.org/">Vim</a></p>
 			<p class="footerText">Copyright &copy; 2013 Corey Watts</p>
 		</div>
-	</body>
-
-	{% javascript app.js %}
-	
+		<script type="text/javascript" src="{{ 'app.js' | asset_path }}"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('.kwicks').kwicks({
@@ -31,6 +28,9 @@
 		})();
 
 	</script>
+	</body>
+
+	
 </html>
 
 
