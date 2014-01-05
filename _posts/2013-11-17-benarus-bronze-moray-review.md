@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Review of my Benarus Bronze Moray 44mm Watch
+description: The Benarus Bronze Moray 44 mm is a fantastic divers watch. Here is a short review I wrote on it, explaining why I like it so much.
 comments: true
 tags:
 - watches

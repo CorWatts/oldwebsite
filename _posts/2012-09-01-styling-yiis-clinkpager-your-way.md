@@ -2,6 +2,7 @@
 layout: post
 title: Styling Yii's CLinkPager Your Way
 comments: true
+description: Want to change the default (read ugly) look of Yii's pager class? Just follow along...
 tags:
 - yii
 - programming

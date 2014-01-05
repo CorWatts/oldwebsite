@@ -2,6 +2,7 @@
 layout: post
 title: Adventures in Barcelona
 comments: true
+description: The start of my Europe trip. Barcelona, Spain was a beautiful city. Read all about my experience.
 tags:
 - barcelona
 - spain

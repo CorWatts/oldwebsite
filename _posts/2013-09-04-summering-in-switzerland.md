@@ -2,6 +2,7 @@
 layout: post
 title: Summering in Switzerland
 comments: true
+description: Switzerland -- the land of watches, cheese, and skiing. Don't worry, it gets even better.
 tags:
 - bern
 - interlaken

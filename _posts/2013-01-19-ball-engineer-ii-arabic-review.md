@@ -2,6 +2,7 @@
 layout: post
 title: Review of My Ball Engineer II Arabic Watch
 comments: true
+description: Everyone loves reviews. Here is one on one of my favorite Ball watches.
 tags:
 - watches
 - Ball

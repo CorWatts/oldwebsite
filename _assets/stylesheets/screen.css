@@ -63,8 +63,9 @@ ul.tagList {list-style-type: none;}
 
 .post {color: white; font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 16px; margin: 25px 0px; width: 100%;}
 .post h1.postTitle {font-size: 25px; font-weight: bold;}
-.post .title a {text-decoration: none;}
-.post .title a:hover {text-decoration: underline;}
+#blog_content .post h1 a.title {text-decoration: none;}
+#blog_content .post h1 a.title:active {text-decoration: none;}
+#blog_content .post h1 a.title:hover {text-decoration: underline;}
 .post .author, .post .tags {font-size: 14px;}
 .post .content p {margin: 10px 0px;}
 .post .content ul {margin-left: 17px;}

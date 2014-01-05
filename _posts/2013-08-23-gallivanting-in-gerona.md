@@ -2,6 +2,7 @@
 layout: post
 title: Gallivanting in Gerona
 comments: true
+description: I unintentionally ended up in Gerona, Spain, but it turned out to be a fortunate accident!
 tags:
 - gerona
 - spain

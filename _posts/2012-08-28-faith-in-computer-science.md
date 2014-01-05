@@ -2,6 +2,7 @@
 layout: post
 title: Faith in Computer Science
 comments: true
+description: Westmont emphasized the intersection of faith and learning.  Christianity and programming have more in common than many people think.
 tags:
 - christianity
 - computer science

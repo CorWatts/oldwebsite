@@ -2,6 +2,7 @@
 layout: post
 title: Moving this Site to Jekyll
 comments: true
+description: Or "A quest to find the absolute best speed and security for my website"
 tags:
 - jekyll
 - meta

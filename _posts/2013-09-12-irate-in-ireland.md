@@ -2,6 +2,7 @@
 layout: post
 title: Irate in Ireland
 comments: true
+description: Not really irate, more like genial. Dublin, Galway and the Cliffs of Moher were pretty incredible.
 tags:
 - dublin
 - galway

@@ -2,6 +2,7 @@
 layout: post
 title: What is Computer Science?
 comments: true
+description: Defining terms can be difficult, human language is often vague and unspecific. But sometimes it is important to know exactly what you are working with.
 tags:
 - computer science
 - westmont

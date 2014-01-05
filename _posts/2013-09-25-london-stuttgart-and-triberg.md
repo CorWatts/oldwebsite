@@ -2,6 +2,7 @@
 layout: post
 title: London, Stuttgart, and Triberg
 comments: true
+description: You might ask how I could possibly cover England and Germany in a single post? Well I did it here, so read on to find out.
 tags:
 - london
 - stuttgart
