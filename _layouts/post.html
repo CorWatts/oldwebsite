@@ -12,7 +12,7 @@ banner_color: 54787D
 		<div id="blog_content">
 			<div class="post">
 				<h1 class="postTitle"><a class="title" href='{{ page.url }}'>{{ page.title }}</a></h1>
-				<div class="author">posted by {{ site.first_name }} {{ site.last_name }} on {{ page.date | date: "%B %d, %Y" }}</div>
+				<div class="author">posted by <h3 class="small">{{ site.first_name }} {{ site.last_name }}</h3> on {{ page.date | date: "%B %d, %Y" }}</div>
 				<div class="content">
 					{{ content }}
 				</div>

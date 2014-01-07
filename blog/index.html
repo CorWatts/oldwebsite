@@ -8,7 +8,7 @@ description: I have a wide range of interests, including traveling, watches, and
 	{% for post in site.posts limit: 10 %}
 		<div class="post">
 			<h1 class="postTitle"><a class="title" href='{{ post.url }}'>{{ post.title }}</a></h1>
-			<div class="author">posted by {{ site.first_name }} {{ site.last_name }} on {{ post.date | date: "%B %d, %Y" }}</div>
+			<div class="author">posted by <h3 class="small">{{ site.first_name }} {{ site.last_name }}</h3> on {{ post.date | date: "%B %d, %Y" }}</div>
 			<div class="content">
 				{{ post.description }}
 			</div>

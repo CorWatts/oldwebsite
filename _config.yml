@@ -5,7 +5,7 @@ exclude: [rakefile]
 
 first_name: Corey
 last_name: Watts
-banner_text: hi. i'm corey watts.
+banner_text: hi. i'm corey.
 github: https://github.com/CorWatts
 
 markdown: rdiscount
