@@ -19,7 +19,7 @@
 	   {% for tag in site.tags %}      
 	   <li>
 	   	<a href="/blog/tags.html#{{ tag | first | cgi_escape }}" 
-		style="font-size:{{tag | last | size | times:16 | divided_by:site.tags.size | plus:8}}px;">
+		style="font-size:{{tag | last | size | times:16 | divided_by:site.tags.size | plus:10}}px;">
 		{{ tag | first }}</a>
 		{% unless forloop.last %}&nbsp; {% endunless %}
 	</li>
