@@ -1,16 +1,25 @@
-task :default => [:gen]
+task :default => [:dev]
 
 desc 'Generating new version of site...'
 task :gen do
-  system('jekyll')
+  system('jekyll build')
 end
 
 desc 'Running Jekyll server with --watch option'
 task :dev do
-  system('jekyll serve --watch')
+  system('jekyll serve --watch --config _config-min.yml')
 end
 
 desc 'Deploying site to server...'
-task :deploy => :gen do
+task :deploy  do
   system('git push web')
+end
+
+desc 'Making a commit...'
+task :commit do
+  system('git add . && git commit')
+end
+
+task :done => [:gen, :commit, :deploy] do
+  puts "All done! Check out corwatts.com to verify."
 end

@@ -1,0 +1,22 @@
+pygments: true
+permalink: /blog/:year/:month/:day/:title/
+url: http://corwatts.com
+exclude: [rakefile]
+
+first_name: Corey
+last_name: Watts
+banner_text: hi. i'm corey.
+github: https://github.com/CorWatts
+
+markdown: rdiscount
+
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+  cachebust: soft
+  cache: false
+  debug: false
