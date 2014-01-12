@@ -1,21 +1,20 @@
 task :default => [:dev]
 
-desc 'Generating new version of site...'
 task :gen do
+  puts "Generating the site..."
   system('jekyll build')
 end
 
-desc 'Running Jekyll server with --watch option'
 task :dev do
+  puts "Starting server..."
   system('jekyll serve --watch --config _config-min.yml')
 end
 
-desc 'Deploying site to server...'
 task :deploy  do
+  puts "Deploying site to server..."
   system('git push web')
 end
 
-desc 'Making a commit...'
 task :commit do
   system('git add -A . && git commit')
   puts "Pushing the commit..."
