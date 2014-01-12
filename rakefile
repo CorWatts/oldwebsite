@@ -19,6 +19,8 @@ task :commit do
   system('git add -A . && git commit')
   puts "Pushing the commit..."
   system('git push')
+  puts "pushing the commit to github..."
+  system('git push github')
 end
 
 task :done => [:gen, :commit, :deploy] do
