@@ -18,6 +18,8 @@ end
 desc 'Making a commit...'
 task :commit do
   system('git add -A . && git commit')
+  puts "Pushing the commit..."
+  system('git push')
 end
 
 task :done => [:gen, :commit, :deploy] do
