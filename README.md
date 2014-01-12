@@ -9,6 +9,6 @@ The default rake task ('rake') should get you up and running with a server, usin
 second config file that does not compress my assets, because generating this site on my underpowered netbook was taking
 a loooong time.
 
-You can check out the actual live site at (http://corwatts.com)[http://corwatts.com].
+You can check out the actual live site at http://corwatts.com.
 
 Enjoy!
