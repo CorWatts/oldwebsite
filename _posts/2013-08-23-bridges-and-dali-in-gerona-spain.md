@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gallivanting in Gerona
+title: Bridges and Dalí in Gerona, Spain
 comments: true
 description: I unintentionally ended up in Gerona, Spain, but it turned out to be a fortunate accident!
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sipping Scotch in Scotland
+title: Edinburgh, Inverness, and Edradour Whisky
 comments: true
 description: The whiskey was pretty mind-blowing. But the Scottish people, culture, and countryside were just as amazing.
 tags:

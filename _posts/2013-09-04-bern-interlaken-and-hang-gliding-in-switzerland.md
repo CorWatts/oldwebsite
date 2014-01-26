@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Summering in Switzerland
+title: Bern, Interlaken, and Hang-gliding in Switzerland
 comments: true
-description: Switzerland -- the land of watches, cheese, and skiing. Don't worry, it gets even better.
+description: Switzerland -- the land of watches, cheese, and skiing. Don't worry, hang-gliding happens too.
 tags:
 - bern
 - interlaken
