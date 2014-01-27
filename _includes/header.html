@@ -9,10 +9,11 @@
 		<link rel="icon" href="favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="{{ 'screen.css' | asset_path }}" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<div id="topBanner" style="background-color: #{% if page.banner_color %}{{ page.banner_color }}{% else %}C6CCA5{% endif %}">
-			<h1 id="bannerText">{{ site.banner_text }}</h1>
+			<h1 id="bannerText">{% if page.banner_text %}{{ page.banner_text }}{% else %}{{ site.banner_text }}{% endif %}</h1>
 		</div>
 	
 		<div id="navbar">

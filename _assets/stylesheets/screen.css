@@ -2,8 +2,9 @@
 body {background-color: #1d1e21; position: relative;}
 
 #topBanner {width: 100%; height: 120px; margin-bottom: 20px; border-bottom: 1px solid #5E5E5E; position: relative;}
-#bannerText {font-size: 85px; font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; text-align: center; text-shadow: 1px 1px 5px #828181; filter: dropshadow(color=#828181, offx=1, offy=1); width: 100%; margin: 0px auto 0px auto; white-space: nowrap; }
+#bannerText {font-size: 85px; font-family: 'Open Sans', 'Helvetica', Sans-Serif; text-align: center; text-shadow: 1px 1px 5px #828181; filter: dropshadow(color=#828181, offx=1, offy=1); width: 100%; margin: 0px auto 0px auto; white-space: nowrap; font-weight:600;}
 
+/* Nav stuff */
 .kwicks {display: block; list-style: none; list-style-type: none; position: relative; margin: 0px auto 0px auto; padding: 0; width: 645px; height: 80px;}
 .kwicks > * {display: block; overflow: hidden; padding: 0; margin: 0;}
 .kwicks.kwicks-processed > * {margin: 0; position: absolute;}
@@ -18,63 +19,67 @@ body {background-color: #1d1e21; position: relative;}
 #kwick_5 {background-color: #615145;}
 .kwicks.horizontal #kwick_5 {margin-right: 0px;}
 a.navInnerLinkContainer {position: absolute; height: 100%; width: 100%; padding: 20px 0px 0px 10px; color: black; text-decoration: none;}
-span.navTitle {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; font-size: 28px; white-space: nowrap; text-shadow: 1px 1px 1px #828181; filter: dropshadow(color=#828181, offx=1, offy=1);}
-span.navBlurb {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; font-size: 16px; white-space: nowrap; text-shadow: 1px 1px 1px #828181; filter: dropshadow(color=#828181, offx=1, offy=1);}
-h3.small {font-size:14px; display:inline; font-weight:normal;}
+span.navTitle {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 28px; white-space: nowrap; text-shadow: 1px 1px 1px #828181; filter: dropshadow(color=#828181, offx=1, offy=1); font-weight: 300;}
+span.navBlurb {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 16px; white-space: nowrap; text-shadow: 1px 1px 1px #828181; filter: dropshadow(color=#828181, offx=1, offy=1); font-weight: 300;}
+h1.small {font-size:14px; display:inline; font-weight:300;}
 
-#content {margin: 30px auto 50px auto; width: 75%;}
-	#content h1 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 30px; color: white; margin-top: 5px; margin-bottom: 5px;}
-	#content h2 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 21px; color: white; margin-top: 5px; margin-bottom: 5px;}
-	#content h3 {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 21px; color: white; margin-top: 5px; margin-bottom: 5px;}
-	#content p {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 18px; margin: 0px 0px 20px 0px;}
+/* Content stuff */
+#content {margin: 30px auto 50px auto; width: 75%; text-align: center;}
+	#content h1 {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 32px; color: white; margin-top: 5px; margin-bottom: 5px;}
+	#content h2 {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 24px; color: white; margin-top: 20px; margin-bottom: 5px; font-weight: 400;}
+	#content h3 {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 21px; color: white; margin-top: 5px; margin-bottom: 5px; font-weight: 400;}
+	#content p {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 18px; margin: 0px 0px 20px 0px; font-weight: 300;}
 	a {color: white;}
-	span.email {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 35px; margin: 0px;}
+	span.email {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 35px; margin: 0px;}
 
 /*  Resume Stuff */
-ul.listNoMarker {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 20px; color: white; margin-left: 40px;}
-	ul.listNoMarker li {margin: 10px 0px 5px 0px; list-style-type: none; }
-ul.list {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 18px; color: white; margin-left: 40px;}
-	ul.list li {margin: 5px 0px 5px 0px; list-style-type: disc; }
+ul.list {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 18px; color: white; margin-left: 40px; font-weight: 300;}
+	ul.list li {margin: 5px 0px 5px 0px; list-style-type: none; }
 
+/* Footer stuff */
 #footer {margin: 0px auto 0px auto; width: 60%;}
-#footerTop {border-top: 1px solid gray; border-left: none; border-right: none; border-bottom: none; margin-bottom: 10px; }
-.footerText {font-family: 'Terminal Dosis', Arial, Helvetica, Sans-Serif; font-size: 14px; color: gray; text-align: center;}
+#footerTop {border-left: none; border-right: none; border-bottom: none; margin-bottom: 10px; }
+.footerText {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 14px; color: gray; text-align: center; font-weight: 300;}
 #footer a {color: gray;}
 
+/* Blog stuff */
 #body_container {width: 90%; margin-left: auto; margin-right: auto; margin-bottom: 5px;}
-#blog_content {color: white; font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; width: 75%; padding-bottom: 10px;}
+#blog_content {color: white; font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; width: 75%; padding-bottom: 10px;}
 #blog_content a {color: white;}
 #blog_content a.olderPosts {font-size: 35px; text-decoration: none;}
 #blog_content a.olderPosts:hover {text-decoration: underline;}
 
 ul.tagList {list-style-type: none;}
-	ul.tagList li.tag {font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 14px; margin: 0px 0px 5px 0px;}
+	ul.tagList li.tag {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 14px; margin: 0px 0px 5px 0px;}
 		ul.tagList li.tag a.postTitle {font-size: 18px;}
 
-#sidebar {float: right; color: white; font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; width: 25%; max-width: 225px; z-index: 1000;}
+#sidebar {float: right; color: white; font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; width: 25%; max-width: 225px; z-index: 1000;}
 #sidebar {margin: 10px;}
 #sidebar .sidebar-title {font-weight: bold;}
+#sidebar h1 {font-weight: 400; font-size: 18px;}
 #sidebar section ul {list-style: none; margin-left: 0px;}
 #sidebar section a {color: white; font-size: 16px;}
 #sidebar section {margin: 0px 0px 20px 0px}
-#sidebar section h1 {font-weight: bold; font-size: 18px;}
 #sidebar section h1 span.hint {margin-left: 5px;}
+#sidebar .postList, #sidebar section ul.tagCloud {font-weight: 300;}
 #sidebar .postList li {margin-left: 10px;}
 #sidebar section ul.tagCloud li {float: left;}
 
-.post {color: white; font-family: 'Quattrocento Sans', Arial, Helvetica, Sans-Serif; font-size: 16px; margin: 25px 0px; width: 100%;}
+.post {color: white; font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 16px; margin: 25px 0px; width: 100%;}
 .post h1.postTitle {font-size: 25px; font-weight: bold;}
-#blog_content .post h1 a.title {text-decoration: none;}
+#blog_content .post h1 a.title {text-decoration: none; font-weight: 400;}
 #blog_content .post h1 a.title:active {text-decoration: none;}
 #blog_content .post h1 a.title:hover {text-decoration: underline;}
-.post .author, .post .tags {font-size: 14px;}
+.post .author, .post .tags {font-size: 14px; font-weight: 300;}
+.post .content {font-weight: 300;}
 .post .content p {margin: 10px 0px;}
 .post .content ul {margin-left: 17px;}
-.post div.tags, .post ul.inlineList {display: inline;}
-.post .tags ul.inlineList {list-style-type: none;}
-.post .tags ul.inlineList li {float: left; margin-right: 4px;}
+.post div.tags, .post ul.inlineList {display: inline; font-weight: 300;}
+.post .tags ul.inlineList {list-style-type: none; font-weight: 300;}
+.post .tags ul.inlineList li {float: left; margin-right: 4px; font-weight: 300;}
 .post a>img {margin-right: 10px;}
 
+/* General classes */
 .right {float: right;}
 .left {float: left;}
 .bold {font-weight: bold;}
@@ -149,16 +154,4 @@ ul.tagList {list-style-type: none;}
 .highlight .ss{color:#990073;}
 .highlight .il{color:#009999;}
 .highlight div .gd,.highlight div .gd .x,.highlight div .gi,.highlight div .gi .x{display:inline-block;width:100%;}
-
-@font-face {
-  font-family: 'Quattrocento Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Quattrocento Sans'), local('QuattrocentoSans'), url(https://themes.googleusercontent.com/static/fonts/quattrocentosans/v5/efd6FGWWGX5Z3ztwLBrG9b2aU247V0zTzydO4RoO9Ok.woff) format('woff');
-}
-@font-face {
-  font-family: 'Terminal Dosis';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Dosis Regular'), local('Dosis-Regular'), url(https://themes.googleusercontent.com/static/fonts/terminaldosis/v5/_IcvjW_kWHsIHjjUsLbdpFGxLvFzKVP0OsRYGzgS_zk.woff) format('woff');
-}
+.highlight pre {font-family: 'Courier New', 'Courier', monospace;}
