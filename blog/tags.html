@@ -8,11 +8,11 @@ banner_text: corey's blog.
 {% for tag in site.tags %}
 <div class="box">
 	<h2><a name="{{ tag | first | cgi_escape }}">{{ tag | first }}</a></h2>
-	<ul class="list">	
+	<ul>	
 	{% for posts in tag %}
       		{% for post in posts %}
 		{% if post.url %}
-			<li class="indented"><a href="{{ post.url }}">{{ post.title }}</a> on {{ post.date | date: '%d %b, %Y' }}</li>
+			<li><a href="{{ post.url }}">{{ post.title }}</a> on {{ post.date | date: '%d %b, %Y' }}</li>
 		{% endif %}
 		{% endfor %}
 	{% endfor %}

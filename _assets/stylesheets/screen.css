@@ -31,6 +31,7 @@ h1.small {font-size:14px; display:inline; font-weight:300;}
 	#content p {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 16px; margin: 0px 0px 20px 0px; font-weight: 300;}
 	a {color: white;}
 	span.email {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; color: white; font-size: 35px; margin: 0px;}
+ul {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 16px; color: white; font-weight: 300; margin: 5px 0px 5px 0px; list-style-type: none;}
 
 /*  Resume Stuff */
 ul.list {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 16px; color: white; margin-left: 40px; font-weight: 300;}
