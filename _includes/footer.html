@@ -1,13 +1,13 @@
 		<div id="footer">
 			<hr id="footerTop" style="border-top: 6px solid #{% if page.banner_color %}{{ page.banner_color }}{% else %}C6CCA5{% endif %};" />
-			<p class="footerText">This website was built using <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://www.vim.org/">Vim</a></p>
-			<p class="footerText">Copyright &copy; 2013 Corey Watts</p>
+			<p class="footerText">This website was built using <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://www.vim.org/">Vim</a> with design tips by my <a href="http://samwattsart.com/">sister</a></p>
+			<p class="footerText">Copyright &copy; {{ site.time | date: "%Y" }} Corey Watts</p>
 		</div>
 		<script type="text/javascript" src="{{ 'app.js' | asset_path }}"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('.kwicks').kwicks({
-				maxSize : 220,
+				maxSize : 250,
 				spacing : 5,
 				behavior : 'menu',
 				duration : 350,
