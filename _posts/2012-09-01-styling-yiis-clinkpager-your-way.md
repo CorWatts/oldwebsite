@@ -7,6 +7,7 @@ tags:
 - yii
 - programming
 - php
+- tutorial
 ---
 CLinkPager is a Yii class that handles pagination for you in a simple fashion.  However, it also comes with it's own predefined CSS.  If you want to style it with your own custom CSS, and get rid of that annoying "Go to Page:" prefix that is appended to the page numbers, then read on.
 
