@@ -5,12 +5,12 @@ body {background-color: #1d1e21; position: relative;}
 #bannerText {font-size: 85px; font-family: 'Open Sans', 'Helvetica', Sans-Serif; text-align: center; text-shadow: 1px 1px 5px #828181; filter: dropshadow(color=#828181, offx=1, offy=1); width: 100%; margin: 0px auto 0px auto; white-space: nowrap; font-weight:600;}
 
 /* Nav stuff */
-.kwicks {display: block; list-style: none; list-style-type: none; position: relative; margin: 0px auto 0px auto; padding: 0; width: 675px; height: 80px;}
+.kwicks {display: block; list-style: none; list-style-type: none; position: relative; margin: 0px auto 0px auto; padding: 0; height: 80px;}
 .kwicks > * {display: block; overflow: hidden; padding: 0; margin: 0;}
 .kwicks.kwicks-processed > * {margin: 0; position: absolute;}
 .kwicks-horizontal > * {float: left;}
 .kwicks-horizontal > :first-child {margin-left: 0;}
-.kwicks > li {width: 125px; height: 100px; display: block; overflow: hidden; padding: 0;}
+.kwicks > li {height: 100px; display: block; overflow: hidden; padding: 0;}
 .kwicks.horizontal li {margin-right: 5px; float: left;}
 #kwick_1 {background-color: #C6CCA5;}
 #kwick_2 {background-color: #8AB8A8;}
@@ -24,7 +24,7 @@ span.navBlurb {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size
 h1.small {font-size:14px; display:inline; font-weight:300;}
 
 /* Content stuff */
-#content {margin: 30px auto 50px auto; width: 75%; text-align: center;}
+#content {margin-top: 30px; margin-bottom: 50px; text-align: center;}
 	#content h1 {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 32px; color: white; margin-top: 5px; margin-bottom: 5px;}
 	#content h2 {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 24px; color: white; margin-top: 20px; margin-bottom: 5px; font-weight: 400;}
 	#content h3 {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 21px; color: white; margin-top: 5px; margin-bottom: 5px; font-weight: 400;}
@@ -38,7 +38,7 @@ ul.list {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 16px
 	ul.list li {margin: 5px 0px 5px 0px; list-style-type: none; }
 
 /* Footer stuff */
-#footer {margin: 0px auto 0px auto; width: 60%;}
+#footer {}
 #footerTop {border-left: none; border-right: none; border-bottom: none; margin-bottom: 10px; }
 .footerText {font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; font-size: 14px; color: gray; text-align: center; font-weight: 300;}
 #footer a {color: gray;}
