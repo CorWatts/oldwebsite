@@ -1,3 +1,3 @@
-//= require vendor/jquery
-//= require vendor/kwicks
-//= require vendor/easing
+//= require jquery
+//= require kwicks
+//= require easing

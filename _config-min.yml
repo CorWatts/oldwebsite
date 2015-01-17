@@ -1,4 +1,4 @@
-pygments: true
+highlighter: true
 permalink: /blog/:year/:month/:day/:title/
 url: http://corwatts.com
 exclude: [rakefile]
@@ -17,6 +17,10 @@ assets:
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/images
+    - _vendors/javascripts
+    - _vendors/stylesheets
+  js_compressor: uglifier
+  css_compressor: sass
   cachebust: soft
   cache: false
   debug: false
