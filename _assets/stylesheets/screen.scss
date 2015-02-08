@@ -1,30 +1,145 @@
 * {padding: 0px; margin: 0px;}
-body {background-color: #1d1e21; position: relative;}
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #fff;
+  background: #37302a;
+  font: normal 100%/1.4 sans-serif;
+  background-color: #1d1e21; 
+  position: relative;
+}
 
-#topBanner {width: 100%; height: 120px; margin-bottom: 20px; border-bottom: 1px solid #5E5E5E; position: relative;}
-#bannerText {color: #333333; font-size: 85px; text-align: center; text-shadow: 1px 1px 5px #828181; filter: dropshadow(color=#828181, offx=1, offy=1); width: 100%; margin: 0px auto 0px auto; white-space: nowrap; font-weight:600;}
+#topBanner {width: 100%; height: 120px; position: relative;}
+#bannerText {color: #333333; font: bold 600%/1.2 "Open Sans", sans-serif; text-align: center; text-shadow: 1px 1px 5px #828181; filter: dropshadow(color=#828181, offx=1, offy=1); width: 100%; margin: 0px auto 0px auto; white-space: nowrap;}
 
 /* Nav stuff */
-.kwicks {display: block; list-style: none; list-style-type: none; position: relative; margin: 0px auto 0px auto; padding: 0; height: 80px;}
-.kwicks > * {display: block; overflow: hidden; padding: 0; margin: 0;}
-.kwicks.kwicks-processed > * {margin: 0; position: absolute;}
-.kwicks-horizontal > * {float: left;}
-.kwicks-horizontal > :first-child {margin-left: 0;}
-.kwicks > li {height: 100px; display: block; overflow: hidden; padding: 0;}
-.kwicks.horizontal li {margin-right: 5px; float: left;}
-#kwick_1 {background-color: #C6CCA5;}
-#kwick_2 {background-color: #8AB8A8;}
-#kwick_3 {background-color: #6B9997;}
-#kwick_4 {background-color: #54787D;}
-#kwick_5 {background-color: #615145;}
-.kwicks.horizontal #kwick_5 {margin-right: 0px;}
-a.navInnerLinkContainer {position: absolute; height: 100%; width: 100%; padding: 20px 0px 0px 10px; color: black; text-decoration: none;}
-span.navTitle {font-size: 28px; white-space: nowrap; text-shadow: 1px 1px 1px #828181; filter: dropshadow(color=#828181, offx=1, offy=1); font-weight: 300;}
-span.navBlurb {font-size: 16px; white-space: nowrap; text-shadow: 1px 1px 1px #828181; filter: dropshadow(color=#828181, offx=1, offy=1); font-weight: 300;}
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-collapse,
+.nav-collapse * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nav-collapse,
+.nav-collapse ul {
+  list-style: none;
+  width: 100%;
+  float: left;
+}
+
+.nav-collapse li {
+  float: left;
+  width: 100%;
+}
+
+@media screen and (min-width: 640px) {
+  .nav-collapse li {
+    width: 20%;
+    *width: 20%; /* IE7 Hack */
+    _width: 19%; /* IE6 Hack */
+  }
+}
+
+.nav-collapse a {
+  color: #37302a;
+  text-decoration: none;
+  width: 100%;
+  border-bottom: 1px solid #37302a;
+  padding: 0.7em 1em;
+  float: left;
+}
+
+#color1 {background: #C6CCA5;}
+#color2 {background: #8AB8A8;}
+#color3 {background: #6B9997;}
+#color4 {background: #54787D;}
+#color5 {background: #615145;}
+
+@media screen and (min-width: 640px) {
+  .nav-collapse a {
+    margin: 0;
+    padding: 1em;
+    float: left;
+    text-align: center;
+    border-bottom: 0;
+    border-right: 1px solid #37302a;
+  }
+}
+
+.nav-collapse ul ul a {
+  background: #ca3716;
+  padding-left: 2em;
+}
+
+@media screen and (min-width: 640px) {
+  .nav-collapse ul ul a {
+    display: none;
+  }
+}
+
+
+/* ------------------------------------------
+  NAV TOGGLE STYLES
+--------------------------------------------- */
+.nav-toggle {
+  position: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  text-indent: -999px;
+  position: relative;
+  overflow: hidden;
+  width: 70px;
+  height: 55px;
+  float: right;
+}
+
+.nav-toggle:before {
+  color: #fff; /* Edit this to change the icon color */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 28px;
+  text-transform: none;
+  position: absolute;
+  content: "≡";
+  text-indent: 0;
+  text-align: center;
+  line-height: 55px;
+  speak: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-toggle.active::before {
+  font-size: 24px;
+  content:"x";
+}
+
 h1.small {font-size:14px; display:inline; font-weight:300;}
 
 /* Content stuff */
-#content {margin-top: 30px; margin-bottom: 50px; text-align: center;}
+#content {margin-top: 60px; margin-bottom: 50px; text-align: center;}
 	#content h1 {font-size: 32px; color: white; margin-top: 5px; margin-bottom: 5px;}
 	#content h2 {font-size: 24px; color: white; margin-top: 20px; margin-bottom: 5px; font-weight: 400;}
 	#content h3 {font-size: 21px; color: white; margin-top: 5px; margin-bottom: 5px; font-weight: 400;}

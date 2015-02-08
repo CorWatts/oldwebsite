@@ -1,3 +1,1 @@
-//= require jquery
-//= require kwicks
-//= require easing
+//= require responsive-nav 

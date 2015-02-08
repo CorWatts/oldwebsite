@@ -15,43 +15,13 @@
 		<div id="topBanner" style="background-color: #{% if page.banner_color %}{{ page.banner_color }}{% else %}C6CCA5{% endif %}">
 			<h1 id="bannerText">{% if page.banner_text %}{{ page.banner_text }}{% else %}{{ site.banner_text }}{% endif %}</h1>
 		</div>
-	
-		<div id="navbar">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<ul class="kwicks kwicks-horizontal" >
-						<li id="kwick_1">
-							<a class="navInnerLinkContainer" href="/">
-							<span class='navTitle'>about me</span><br />
-							<span class='navBlurb'>who I am and where I've been</span>
-							</a>
-						</li>
-						<li id="kwick_2">
-							<a class="navInnerLinkContainer" href="/resume/">
-								<span class='navTitle'>resume</span><br />
-								<span class='navBlurb'>my resume and things I've done</span>
-							</a>
-						</li>
-						<li id="kwick_3">
-							<a class="navInnerLinkContainer" href="/projects/">
-								<span class='navTitle'>projects</span><br />
-								<span class='navBlurb'>personal projects I'm involved in</span>
-							</a>
-						</li>
-						<li id="kwick_4">
-							<a class="navInnerLinkContainer" href="/blog/">
-								<span class='navTitle'>blog</span><br />
-								<span class='navBlurb'>a repository for my thoughts</span>
-							</a>
-						</li>
-						<li id="kwick_5">
-							<a class="navInnerLinkContainer" href="/contactme/">
-								<span class='navTitle'>contact me</span><br />
-								<span class='navBlurb'>need to reach me? here you go</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			<div class="clear"></div>
-		</div>
-
+		<nav class="nav-collapse">
+				<ul>
+					<li><a id="color1" href="/">about me</a></li>
+					<li><a id="color2" href="/resume/">resume</a></li>
+					<li><a id="color3" href="/projects/">projects</a></li>
+					<li><a id="color4" href="/blog/">blog</a></li>
+					<li><a id="color5" href="/contactme/">contact me</a></li>
+				</ul>
+				<div class="clear"></div>
+		</nav>
