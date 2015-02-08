@@ -1,11 +1,15 @@
 {% include header.html %}
 	<div id="body_container">
-		<div id="sidebar">
-			<div class="sidebar-content">
-				{% include widgets/timeLine.html %}
-				{% include widgets/tagCloud.html %}
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div id="sidebar">
+					<div class="sidebar-content">
+						{% include widgets/timeLine.html %}
+						{% include widgets/tagCloud.html %}
+					</div>
+				</div>
+				{{ content }}
 			</div>
 		</div>
-		{{ content }}
 	</div>
 {% include footer.html %}

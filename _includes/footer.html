@@ -3,30 +3,30 @@
 			<p class="footerText">This website was built using <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://www.vim.org/">Vim</a> with design tips by my <a href="http://samwattsart.com/">sister</a></p>
 			<p class="footerText">Copyright &copy; {{ site.time | date: "%Y" }} Corey Watts</p>
 		</div>
-		<script type="text/javascript" src="{{ 'app.js' | asset_path }}"></script>
 	<script type="text/javascript">
-
-		var nav = responsiveNav(".nav-collapse", { // Selector
-			animate: true, // Boolean: Use CSS3 transitions, true or false
-			transition: 284, // Integer: Speed of the transition, in milliseconds
-			label: "Menu", // String: Label for the navigation toggle
-			insert: "before", // String: Insert the toggle before or after the navigation
-			customToggle: "", // Selector: Specify the ID of a custom toggle
-			closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
-			openPos: "relative", // String: Position of the opened nav, relative or static
-			navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
-			navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
-			jsClass: "js", // String: 'JS enabled' class which is added to  element
-			init: function(){}, // Function: Init callback
-			open: function(){
-				//document.getElementById("content").style.marginTop = "280px";
-				//document.getElementById("blog_content").style.marginTop = "280px";
-			}, // Function: Open callback
-			close: function(){
-				//document.getElementById("content").style.marginTop = "60px";
-				//document.getElementById("blog_content").style.marginTop = "60px";
-			} // Function: Close callback
-		});
+		function createNav() {
+			var nav = responsiveNav(".nav-collapse", { // Selector
+				animate: true, // Boolean: Use CSS3 transitions, true or false
+				transition: 284, // Integer: Speed of the transition, in milliseconds
+				label: "Menu", // String: Label for the navigation toggle
+				insert: "before", // String: Insert the toggle before or after the navigation
+				customToggle: "", // Selector: Specify the ID of a custom toggle
+				closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+				openPos: "relative", // String: Position of the opened nav, relative or static
+				navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+				navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
+				jsClass: "js", // String: 'JS enabled' class which is added to  element
+				init: function(){}, // Function: Init callback
+				open: function(){
+					//document.getElementById("content").style.marginTop = "280px";
+					//document.getElementById("blog_content").style.marginTop = "280px";
+				}, // Function: Open callback
+				close: function(){
+					//document.getElementById("content").style.marginTop = "60px";
+					//document.getElementById("blog_content").style.marginTop = "60px";
+				} // Function: Close callback
+			});
+		}
 
 		// google analytics
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -38,6 +38,7 @@
 		ga('create', 'UA-30383134-1', 'corwatts.com');
 		ga('send', 'pageview');
 	</script>
+	<script async type="text/javascript" src="{{ 'app.js' | asset_path }}" onload="createNav()"></script>
 	</body>
 
 	

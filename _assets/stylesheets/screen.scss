@@ -51,6 +51,7 @@ body {
 	#bannerText {margin-left: 60px; text-align: left; font: bold 250%/1.4 "Open Sans", sans-serif;}
 	.nav-collapse {top: -50px;}
 	#content {margin: -40px 0px 20px 0px !important;}
+	#body_container {margin: -40px 0px 20px 0px !important;}
 }
 
 @media screen and (min-width: 768px) {
@@ -171,11 +172,10 @@ ul.list {font-size: 16px; color: white; margin-left: 40px; font-weight: 300;}
 #footer a {color: gray;}
 
 /* Blog stuff */
-#body_container {float: left; width: 100%; margin-bottom: 5px;}
-#blog_content {color: white; width: 75%; padding-bottom: 10px;}
-#blog_content a {color: white;}
-#blog_content a.olderPosts {font-size: 35px; text-decoration: none;}
-#blog_content a.olderPosts:hover {text-decoration: underline;}
+#body_container {float: left; width: 100%; margin: 10px 0px 20px 0px;}
+#body_container a {color: white;}
+#body_container a.olderPosts {font-size: 35px; text-decoration: none;}
+#body_container a.olderPosts:hover {text-decoration: underline;}
 
 ul.tagList {list-style-type: none;}
 	ul.tagList li.tag {color: white; font-size: 14px; margin: 0px 0px 5px 0px;}
@@ -183,7 +183,7 @@ ul.tagList {list-style-type: none;}
 
 #sidebar {float: right; color: white; width: 25%; max-width: 225px; z-index: 1000; margin: 10px;}
 #sidebar .sidebar-title {font-weight: bold;}
-#sidebar h1 {font-weight: 400; font-size: 18px;}
+#sidebar h1 {font-weight: 400; font-size: 18px; margin: 0px;}
 #sidebar section ul {list-style: none; margin-left: 0px;}
 #sidebar section a {color: white; font-size: 16px;}
 #sidebar section {margin: 0px 0px 20px 0px}

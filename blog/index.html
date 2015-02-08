@@ -5,15 +5,13 @@ banner_color: 54787D
 description: I have a wide range of interests, including traveling, watches, and tech. I write about all of them here!
 banner_text: my blog.
 ---
-	<div id="blog_content">
-	{% for post in site.posts limit: 10 %}
-		<div class="post">
-			<h1 class="postTitle"><a class="title" href='{{ post.url }}'>{{ post.title }}</a></h1>
-			<div class="author">posted by <h1 class="small">{{ site.first_name }} {{ site.last_name }}</h1> on {{ post.date | date: "%B %d, %Y" }}</div>
-			<div class="content">
-				{{ post.description }}
-			</div>
+{% for post in site.posts limit: 10 %}
+	<div class="post">
+		<h1 class="postTitle"><a class="title" href='{{ post.url }}'>{{ post.title }}</a></h1>
+		<div class="author">posted by <h1 class="small">{{ site.first_name }} {{ site.last_name }}</h1> on {{ post.date | date: "%B %d, %Y" }}</div>
+		<div class="content">
+			{{ post.description }}
 		</div>
-	{% endfor %}
-		<a class="olderPosts" href="/blog/older.html">&lt;&lt; view older posts</a>
 	</div>
+{% endfor %}
+	<a class="olderPosts" href="/blog/older.html">&lt;&lt; view older posts</a>
