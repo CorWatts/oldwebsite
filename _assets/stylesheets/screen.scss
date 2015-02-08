@@ -50,6 +50,7 @@ body {
 	#topBanner {height: 60px;}
 	#bannerText {margin-left: 60px; text-align: left; font: bold 250%/1.4 "Open Sans", sans-serif;}
 	.nav-collapse {top: -50px;}
+	#content {margin: -40px 0px 20px 0px !important;}
 }
 
 @media screen and (min-width: 768px) {
@@ -151,7 +152,7 @@ body {
 h1.small {font-size:14px; display:inline; font-weight:300;}
 
 /* Content stuff */
-#content {float: left; margin-bottom: 20px; text-align: center; width: 100%;}
+#content {float: left; margin: 10px 0px 20px 0px; text-align: center; width: 100%;}
 	#content h1 {font-size: 32px; color: white; margin-top: 5px; margin-bottom: 5px;}
 	#content h2 {font-size: 24px; color: white; margin-top: 20px; margin-bottom: 5px; font-weight: 400;}
 	#content h3 {font-size: 21px; color: white; margin-top: 5px; margin-bottom: 5px; font-weight: 400;}
