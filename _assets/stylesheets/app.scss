@@ -83,15 +83,6 @@ a {
 	text-decoration: underline;
 }
 
-a.navInnerLinkContainer {
-	text-decoration: none;
-
-	&:hover {
-		text-decoration: none;
-		color: black;
-	}
-}
-
 @import "responsive-nav";
 @import "screen";
 @import "bootstrap-custom";
