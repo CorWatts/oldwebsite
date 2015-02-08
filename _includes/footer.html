@@ -1,11 +1,7 @@
-		<div id="footer">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<hr id="footerTop" style="border-top: 6px solid #{% if page.banner_color %}{{ page.banner_color }}{% else %}C6CCA5{% endif %};" />
-					<p class="footerText">This website was built using <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://www.vim.org/">Vim</a> with design tips by my <a href="http://samwattsart.com/">sister</a></p>
-					<p class="footerText">Copyright &copy; {{ site.time | date: "%Y" }} Corey Watts</p>
-				</div>
-			</div>
+		<div id="footer" class="row">
+			<hr id="footerTop" style="border-top: 6px solid #{% if page.banner_color %}{{ page.banner_color }}{% else %}C6CCA5{% endif %};" />
+			<p class="footerText">This website was built using <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://www.vim.org/">Vim</a> with design tips by my <a href="http://samwattsart.com/">sister</a></p>
+			<p class="footerText">Copyright &copy; {{ site.time | date: "%Y" }} Corey Watts</p>
 		</div>
 		<script type="text/javascript" src="{{ 'app.js' | asset_path }}"></script>
 	<script type="text/javascript">
@@ -22,8 +18,14 @@
 			navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
 			jsClass: "js", // String: 'JS enabled' class which is added to  element
 			init: function(){}, // Function: Init callback
-			open: function(){document.getElementById("content").style.marginTop = "280px";}, // Function: Open callback
-			close: function(){document.getElementById("content").style.marginTop = "60px";} // Function: Close callback
+			open: function(){
+				//document.getElementById("content").style.marginTop = "280px";
+				//document.getElementById("blog_content").style.marginTop = "280px";
+			}, // Function: Open callback
+			close: function(){
+				//document.getElementById("content").style.marginTop = "60px";
+				//document.getElementById("blog_content").style.marginTop = "60px";
+			} // Function: Close callback
 		});
 
 		// google analytics

@@ -7,7 +7,7 @@ end
 
 task :dev do
   puts "Starting server..."
-  system('jekyll serve --watch --config _config-min.yml')
+  system('jekyll serve --watch')
 end
 
 task :deploy  do
