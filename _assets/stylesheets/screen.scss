@@ -48,7 +48,7 @@ body {
 
 @media screen and (max-width: 767px) {
 	#topBanner {height: 60px;}
-	#bannerText {font: bold 275%/1.2 "Open Sans", sans-serif;}
+	#bannerText {margin-left: 60px; text-align: left; font: bold 250%/1.4 "Open Sans", sans-serif;}
 	.nav-collapse {top: -50px;}
 }
 
@@ -119,7 +119,7 @@ body {
   text-indent: -999px;
   position: relative;
   overflow: hidden;
-  width: 70px;
+  width: 60px;
   height: 55px;
   float: left;
   top: -60px;
