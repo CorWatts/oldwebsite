@@ -82,6 +82,11 @@ a {
 	text-decoration: underline;
 }
 
+.row {
+	margin-left: 0px!important;
+	margin-right: 0px!important;
+}
+
 @import "responsive-nav";
 @import "screen";
 @import "bootstrap-custom";
