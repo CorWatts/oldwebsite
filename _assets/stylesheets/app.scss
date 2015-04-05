@@ -78,7 +78,7 @@ $font-family-sans-serif: 'Open Sans', Arial, Helvetica, Sans-Serif;
 	pre {font-family: 'Courier New', 'Courier', monospace; white-space: pre-wrap; background-color:#073642;color:#93a1a1; border: none;}
 }
 
-a {
+#content a, .sidebar-content a, .post a {
 	text-decoration: underline;
 }
 
