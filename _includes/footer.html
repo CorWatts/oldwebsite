@@ -1,5 +1,5 @@
 		<div id="footer" class="row">
-			<hr id="footerTop" style="border-top: 6px solid #{% if page.banner_color %}{{ page.banner_color }}{% else %}C6CCA5{% endif %};" />
+			<hr id="footerTop" class="text{% if page.banner_class %}{{ page.banner_class }}{% else %}color1{% endif %}" style="border-top: 6px solid;" />
 			<p class="footerText">This website was built using <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://www.vim.org/">Vim</a> with design tips by my <a href="http://www.samwattsart.com/">sister</a></p>
 			<p class="footerText">Copyright &copy; {{ site.time | date: "%Y" }} Corey Watts</p>
 		</div>

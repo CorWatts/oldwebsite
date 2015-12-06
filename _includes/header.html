@@ -11,18 +11,19 @@
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="{{ 'app.css' | asset_path }}" />
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<div id="topBanner" style="background-color: #{% if page.banner_color %}{{ page.banner_color }}{% else %}C6CCA5{% endif %}">
+		<div id="topBanner" class="{% if page.banner_class %}{{ page.banner_class }}{% else %}color1{% endif %}">
 			<h1 id="bannerText">{% if page.banner_text %}{{ page.banner_text }}{% else %}{{ site.banner_text }}{% endif %}</h1>
 		</div>
 		<nav class="nav-collapse">
 				<ul>
-					<li><a id="color1" href="/">about me</a></li>
-					<li><a id="color2" href="/resume/">resume</a></li>
-					<li><a id="color3" href="/projects/">projects</a></li>
-					<li><a id="color4" href="/blog/">blog</a></li>
-					<li><a id="color5" href="/contactme/">contact me</a></li>
+					<li><a class="color1" href="/">about me</a></li>
+					<li><a class="color2" href="/resume/">resume</a></li>
+					<li><a class="color3" href="/projects/">projects</a></li>
+					<li><a class="color4" href="/blog/">blog</a></li>
+					<li><a class="color5" href="/contactme/">contact me</a></li>
 				</ul>
 				<div class="clear"></div>
 		</nav>

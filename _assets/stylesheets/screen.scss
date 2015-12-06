@@ -11,7 +11,7 @@ body {
 }
 
 #topBanner {width: 100%; height: 120px;}
-#bannerText {margin: 0; color: #333333; font: bold 600%/1.2 "Open Sans", sans-serif; text-align: center; text-shadow: 1px 1px 5px #828181; filter: dropshadow(color=#828181, offx=1, offy=1); text-align: center; white-space: nowrap; overflow: hidden;}
+#bannerText {margin: 0; color: white; font: normal 600%/1.2 "Lato", sans-serif; text-align: center; text-align: center; white-space: nowrap; overflow: hidden;}
 
 /* Nav stuff */
 @-webkit-viewport { width: device-width; }
@@ -48,7 +48,7 @@ body {
 
 @media screen and (max-width: 767px) {
 	#topBanner {height: 60px;}
-	#bannerText {margin-left: 60px; text-align: left; font: bold 250%/1.4 "Open Sans", sans-serif;}
+	#bannerText {margin-left: 60px; text-align: left; font: normal 250%/1.4 "Lato", sans-serif;}
 	.nav-collapse {top: -50px;}
 	#content {margin: -40px 0px 20px 0px !important;}
 	#body_container {margin: -40px 0px 20px 0px !important;}
@@ -63,7 +63,7 @@ body {
 }
 
 .nav-collapse a {
-  color: #37302a;
+  color: white;
   text-decoration: none;
   width: 100%;
   height: 100%;
@@ -72,15 +72,20 @@ body {
   float: left;
 
   &:hover {
-    color: #37302a !important;
+    color: white !important;
   }
 }
 
-#color1 {background: #C6CCA5;}
-#color2 {background: #8AB8A8;}
-#color3 {background: #6B9997;}
-#color4 {background: #54787D;}
-#color5 {background: #615145;}
+.color1 {background: #FDAAAB;}
+.textcolor1 {color: #FDAAAB;}
+.color2 {background: #D26B6C;}
+.textcolor2 {color: #D26B6C;}
+.color3 {background: #A83A3C;}
+.textcolor3 {color: #A83A3C;}
+.color4 {background: #7F1719;}
+.textcolor4 {color: #7F1719;}
+.color5 {background: #540103;}
+.textcolor5 {color: #540103;}
 
 @media screen and (min-width: 768px) {
   .nav-collapse a {
@@ -128,7 +133,7 @@ body {
 }
 
 .nav-toggle:before {
-  color: #1d1e21; /* Edit this to change the icon color */
+  color: white; /* Edit this to change the icon color */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
