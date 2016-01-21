@@ -1,6 +1,6 @@
 highlighter: pygments
 permalink: /blog/:year/:month/:day/:title/
-url: http://corwatts.com
+url: //corwatts.com
 exclude: [rakefile]
 
 first_name: Corey

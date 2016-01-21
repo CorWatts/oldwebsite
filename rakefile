@@ -7,7 +7,7 @@ end
 
 task :dev do
   puts "Starting server..."
-  system('jekyll serve --watch')
+  system('jekyll serve --watch --drafts')
 end
 
 task :deploy  do

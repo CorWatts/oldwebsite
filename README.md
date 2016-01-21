@@ -7,6 +7,6 @@ Before generating the site, you should run a bundle install to get the required 
 
 The default rake task ('rake') should get you up and running with a server.
 
-You can check out the actual live site at http://corwatts.com.
+You can check out the actual live site at https://corwatts.com.
 
 Enjoy!
