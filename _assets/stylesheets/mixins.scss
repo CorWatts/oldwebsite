@@ -1,0 +1,8 @@
+// from https://css-tricks.com/snippets/css/a-guide-to-flexbox/ on 2016-1-21
+@mixin display-flex() {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+

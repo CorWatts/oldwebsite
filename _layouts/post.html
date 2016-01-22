@@ -15,10 +15,10 @@ banner_text: my blog.
 					<div class="post">
 						<h1 class="postTitle"><a class="title" href='{{ page.url }}'>{{ page.title }}</a></h1>
 						<div class="author">posted by <h1 class="small">{{ site.first_name }} {{ site.last_name }}</h1> on {{ page.date | date: "%B %d, %Y" }}</div>
+						{% include widgets/postTagList.html %}
 						<div class="content">
 							{{ content }}
 						</div>
-						{% include widgets/postTagList.html %}
 					</div>
 					{% if page.comments %}
 					<div id="disqus_thread"></div>
