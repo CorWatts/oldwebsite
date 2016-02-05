@@ -14,7 +14,7 @@
 	<h1>Categories</h1>
 	<ul class="postList categories">
 	{% for category in site.categories %}
-		<li><a href="/categories.html#{{ category | first | cgi_escape}}">{{ category | first }} <span>({{ category | last | size }})</span></a></li>			
+		<li><a href="/categories/index.html#{{ category | first | cgi_escape}}">{{ category | first }} <span>({{ category | last | size }})</span></a></li>			
 	{% endfor %}
 	</ul>
 </nav>

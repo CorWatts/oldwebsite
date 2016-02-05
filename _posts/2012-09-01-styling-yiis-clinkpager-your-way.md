@@ -25,7 +25,7 @@ class LinkPager extends CLinkPager
 {% endhighlight %}
 
 Then to use your new class in a CListView widget, you can specify exactly what class you need like this:
-{% highlight php %}
+```php
 <?php
 $this->widget('zii.widgets.CListView', array(
         'dataProvider'=>$dataProvider,
@@ -33,4 +33,4 @@ $this->widget('zii.widgets.CListView', array(
         'template'=>"{items}\n{pager}",
         'pager'=>array('class'=>'LinkPager'),
 ));
-{% endhighlight %}
+```

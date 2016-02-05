@@ -13,7 +13,7 @@
 		<div class="tags"><span class="bold left">Tags:&nbsp;</span>
 			<ul class="inlineList">
 			{% for tag in post.tags %}
-				<li><a href="/blog/tags.html#{{tag | cgi_encode}}">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
+				<li><a href="/blog/tags/index.html#{{tag | cgi_encode}}">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
 				</li>
 			{% endfor %}
 			</ul>
@@ -26,7 +26,7 @@
 			<span class="bold left">Tags:&nbsp;</span>
 			<ul class="inlineList">
 			{% for tag in page.tags %}
-				<li><a href="/blog/tags.html#{{tag | cgi_encode}}">{{ tag }}</a>{% unless forloop.last %},{% endunless %}</li>
+				<li><a href="/blog/tags/index.html#{{tag | cgi_encode}}">{{ tag }}</a>{% unless forloop.last %},{% endunless %}</li>
 			{% endfor %}
 			</ul>
 		</div>	

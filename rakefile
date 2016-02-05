@@ -2,12 +2,12 @@ task :default => [:dev]
 
 task :gen do
   puts "Generating the site..."
-  system('jekyll build')
+  system('bundle exec jekyll build')
 end
 
 task :dev do
   puts "Starting server..."
-  system('jekyll serve --watch --drafts')
+  system('bundle exec jekyll serve --watch --drafts')
 end
 
 task :deploy  do

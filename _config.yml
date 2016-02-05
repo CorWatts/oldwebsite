@@ -1,4 +1,3 @@
-highlighter: pygments
 permalink: /blog/:year/:month/:day/:title/
 url: //corwatts.com
 exclude: [rakefile]
@@ -8,20 +7,18 @@ last_name: Watts
 banner_text: hi. i'm corey.
 github: https://github.com/CorWatts
 
-markdown: rdiscount
+gems:
+  - jekyll-assets
 
 assets:
-  dirname: assets
-  baseurl: /assets/
+  prefix: "/assets"
+  assets:
+    - "*.png"
+    - "bundle.css"
+  digest: true
   sources:
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/images
-    - _vendors/javascripts
-    - _vendors/stylesheets
-  js_compressor: uglifier
-  css_compressor: sass
-  cachebust: soft
-  cache: false
-  gzip: [ text/css, application/javascript ]
-  debug: false
+    - "_assets/javascripts"
+    - "_assets/stylesheets"
+    - "_assets/images"
+    - "_vendors/javascripts"
+    - "_vendors/stylesheets"

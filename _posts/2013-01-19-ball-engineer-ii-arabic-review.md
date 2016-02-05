@@ -29,14 +29,14 @@ Enough backstory, lets cut to the review.
 
 I've been wearing it almost every day for since May 2012, so as of writing I've been wearing it roughly eight months.  For most of that time, I had it on the metal bracelet.  I switched it over to the black leather band in late December, and I've been wearing it that way since.  I really love how it looks on both bands, but I think it looks slightly classier on the black leather.  I've been quite impressed by the sapphire crystal, after eight months of constant use there isn't a single scratch!  The polished metal case and bezel have small, normal-use scratches, but the crystal is still pristine.
 
-<a href="{% asset_path full/ball_engineer_arabic_on_wrist.jpg %}"><img alt="Ball Engineer Arabic II 40mm On Wrist" src="{% asset_path thumb/ball_engineer_arabic_on_wrist.jpg %}" height="225" width="300" /></a>
+<a href="{% image full/ball_engineer_arabic_on_wrist.jpg %}"><img alt="Ball Engineer Arabic II 40mm On Wrist" src="{% image thumb/ball_engineer_arabic_on_wrist.jpg %}" height="225" width="300" /></a>
 
 I think the white face is very classy, defintely classier than the black face this model also comes in.  The white face, arabic numerals, black outlines on the indexes, and teal accents combine to make a gorgeous dial.  I especially love the shade of teal used on the second hand and arabic five minute markers.  I love the teal so much I was very excited when Ball redesigned their Engineer II Diver to use that color, instead of the florescent green and orange they were using previously.  But that's a story for another post.
 
-<a href="{% asset_path full/ball_engineer_arabic_backside.jpg %}"><img alt="Ball Engineer Arabic II 40mm Backside" src="{% asset_path thumb/ball_engineer_arabic_backside.jpg %}" height="225" width="300" /></a>
+<a href="{% image full/ball_engineer_arabic_backside.jpg %}"><img alt="Ball Engineer Arabic II 40mm Backside" src="{% image thumb/ball_engineer_arabic_backside.jpg %}" height="225" width="300" /></a>
 
 The movement appears to be quite solid, the watch loses about two and a half seconds per day (lying face up on my dresser at night).  I'd estimate it has roughly a 40 or 45 hour power reserve.  The tritium lume is outstanding.  This is the first tritium watch I've owned, and honestly there is no comparison between tritium and lume paint.  My watch is <span class="italic">always</span> visible at night, no matter how dark or how long it has been since light has touched it.  I don't know how I lived without it!  Ball says the tritium will last 25 years, but seeing as the half-life of tritium is 12.3 years, I'll probably want to get it replaced before then.  Regardless, my watch should be shining brightly for at least ten years or so.  After that, I can send the watch in to Ball and have the tritium tubes replaced.
 
 I've only been able to find one small thing I don't like about this watch.  I think 40mm is slightly small for my 7.5" wrist.  I later got a 43mm watch (which I will be reviewing later) and I find that I like the size of it more.  But this is a tiny dislike for what is otherwise an incredible watch.
 
-<a href="{% asset_path full/ball_engineer_arabic_height.jpg %}"><img alt="Ball Engineer Arabic II 40mm Height" src="{% asset_path thumb/ball_engineer_arabic_height.jpg %}" height="225" width="300" /></a>
+<a href="{% image full/ball_engineer_arabic_height.jpg %}"><img alt="Ball Engineer Arabic II 40mm Height" src="{% image thumb/ball_engineer_arabic_height.jpg %}" height="225" width="300" /></a>
