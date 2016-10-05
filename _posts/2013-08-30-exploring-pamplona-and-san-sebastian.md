@@ -2,7 +2,7 @@
 layout: post
 title: Exploring Pamplona and San Sebastian
 comments: true
-description: Imitating Hemingway in Pamplona and enjoyin the beach in San Sebastian, Spain.
+description: Imitating Hemingway in Pamplona and enjoying the beach in San Sebastian, Spain.
 tags:
 - pamplona
 - san sebastian
