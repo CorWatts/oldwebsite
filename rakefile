@@ -12,7 +12,7 @@ end
 
 task :deploy  do
   puts "Deploying site to server..."
-  system('git push web')
+  system('git push -f web')
 end
 
 task :commit do
