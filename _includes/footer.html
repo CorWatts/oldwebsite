@@ -3,40 +3,24 @@
 			<p class="footerText">This website was built using <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://www.vim.org/">Vim</a> with design tips by my <a href="http://www.samwattsart.com/">sister</a></p>
 			<p class="footerText">Copyright &copy; {{ site.time | date: "%Y" }} Corey Watts</p>
 		</div>
-	<script type="text/javascript">
-		function createNav() {
-			var nav = responsiveNav(".nav-collapse", { // Selector
-				animate: true, // Boolean: Use CSS3 transitions, true or false
-				transition: 284, // Integer: Speed of the transition, in milliseconds
-				label: "Menu", // String: Label for the navigation toggle
-				insert: "before", // String: Insert the toggle before or after the navigation
-				customToggle: "", // Selector: Specify the ID of a custom toggle
-				closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
-				openPos: "relative", // String: Position of the opened nav, relative or static
-				navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
-				navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
-				jsClass: "js", // String: 'JS enabled' class which is added to  element
-				init: function(){}, // Function: Init callback
-				open: function(){
-					//document.getElementById("content").style.marginTop = "280px";
-					//document.getElementById("blog_content").style.marginTop = "280px";
-				}, // Function: Open callback
-				close: function(){
-					//document.getElementById("content").style.marginTop = "60px";
-					//document.getElementById("blog_content").style.marginTop = "60px";
-				} // Function: Close callback
-			});
-		}
-  </script>
+    <script type="text/javascript">
+      function createNav() {
+        var nav = responsiveNav(".nav-collapse", { // Selector
+          animate: true,                           // Boolean: Use CSS3 transitions, true or false
+          transition: 284,                         // Integer: Speed of the transition, in milliseconds
+          label: "Menu",                           // String: Label for the navigation toggle
+          insert: "before",                        // String: Insert the toggle before or after the navigation
+          customToggle: "",                        // Selector: Specify the ID of a custom toggle
+          closeOnNavClick: false,                  // Boolean: Close the navigation when one of the links are clicked
+          openPos: "relative",                     // String: Position of the opened nav, relative or static
+          navClass: "nav-collapse",                // String: Default CSS class. If changed, you need to edit the CSS too!
+          navActiveClass: "js-nav-active",         // String: Class that is added to  element when nav is active
+          jsClass: "js",                           // String: 'JS enabled' class which is added to  element
+        });
+      }
+    </script>
 
-  <script> 
-    _atrk_opts = { atrk_acct:"p4rYl1aU8KL3Io", domain:"corwatts.com",dynamic: true};
-    (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
-  </script>
-  <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=p4rYl1aU8KL3Io" style="display:none" height="1" width="1" alt="" /></noscript>
-
-	<script async type="text/javascript" src="{{ 'app.js' | asset_path }}" onload="createNav()"></script>
+    <script async type="text/javascript" src="{{ 'app.js' | asset_path }}" onload="createNav()"></script>
 	</body>
-
 	
 </html>
